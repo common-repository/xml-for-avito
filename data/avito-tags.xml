@@ -1,0 +1,90 @@
+<AvitoTags>
+	<SparePartType>Автосвет</SparePartType>
+	<SparePartType>Автомобиль на запчасти</SparePartType>
+	<SparePartType>Аккумуляторы</SparePartType>
+	<SparePartType>Двигатель</SparePartType>
+	<SparePartType>Кузов</SparePartType>
+	<SparePartType>Подвеска</SparePartType>
+	<SparePartType>Рулевое управление</SparePartType>
+	<SparePartType>Салон</SparePartType>
+	<SparePartType>Система охлаждения</SparePartType>
+	<SparePartType>Стёкла</SparePartType>
+	<SparePartType>Топливная и выхлопная системы</SparePartType>
+	<SparePartType>Тормозная система</SparePartType>
+	<SparePartType>Трансмиссия и привод</SparePartType>
+	<SparePartType>Электрооборудовани</SparePartType>
+	<SparePartType>Двигатели и комплектующие</SparePartType>
+	<SparePartType>Трансмиссия</SparePartType>
+	<SparePartType>Подвеска и рулевое управление</SparePartType>
+	<SparePartType>Кабина</SparePartType>
+	<SparePartType>Рамы, кузова и надстройки</SparePartType>
+	<SparePartType>Электроника и свет</SparePartType>
+	<SparePartType>Гидравлические и пневмосистемы</SparePartType>
+	<SparePartType>Для навесного оборудования</SparePartType>
+	<SparePartType>Техника на разбор</SparePartType>
+	<SparePartType>Для прицепной техники</SparePartType>
+	<TechnicSparePartType>Сцепление</TechnicSparePartType>
+	<TechnicSparePartType>КПП в сборе</TechnicSparePartType>
+	<TechnicSparePartType>Детали КПП</TechnicSparePartType>
+	<TechnicSparePartType>Механизмы отбора мощности</TechnicSparePartType>
+	<TechnicSparePartType>Карданный вал, привод и полуось</TechnicSparePartType>
+	<TechnicSparePartType>Редуктор, муфта и дифференциалы</TechnicSparePartType>
+	<TechnicSparePartType>Подшипники и крестовины</TechnicSparePartType>
+	<TechnicSparePartType>Раздаточная коробка</TechnicSparePartType>
+	<TransmissionSparePartType>КПП в сборе</TransmissionSparePartType>
+	<TransmissionSparePartType>Корпус КПП</TransmissionSparePartType>
+	<TransmissionSparePartType>Дифференциал</TransmissionSparePartType>
+	<TransmissionSparePartType>Валы, муфты, шестерни и подшипники КПП</TransmissionSparePartType>
+	<TransmissionSparePartType>Фрикционы КПП</TransmissionSparePartType>
+	<TransmissionSparePartType>Прокладки и уплотнения КПП</TransmissionSparePartType>
+	<TransmissionSparePartType>Крепёж КПП</TransmissionSparePartType>
+	<TransmissionSparePartType>Приводные валы, полуоси и ШРУСы</TransmissionSparePartType>
+	<TransmissionSparePartType>Сцепление</TransmissionSparePartType>
+	<TransmissionSparePartType>Электронное управление КПП</TransmissionSparePartType>
+	<TransmissionSparePartType>Переключение передач</TransmissionSparePartType>
+	<TransmissionSparePartType>Система смазки и охлаждения КПП</TransmissionSparePartType>
+	<TransmissionSparePartType>Карданная передача</TransmissionSparePartType>
+	<TransmissionSparePartType>Раздаточная коробка</TransmissionSparePartType>
+	<TransmissionSparePartType>Муфта полного привода</TransmissionSparePartType>
+	<TransmissionSparePartType>Мосты и редукторы</TransmissionSparePartType>
+	<EngineSparePartType>Блок цилиндров, головка, картер</EngineSparePartType>
+	<EngineSparePartType>Вакуумная система</EngineSparePartType>
+	<EngineSparePartType>Впускная система</EngineSparePartType>
+	<EngineSparePartType>Генераторы, стартеры</EngineSparePartType>
+	<EngineSparePartType>Двигатель в сборе</EngineSparePartType>
+	<EngineSparePartType>Катушка зажигания, свечи, электрика</EngineSparePartType>
+	<EngineSparePartType>Клапанная крышка</EngineSparePartType>
+	<EngineSparePartType>Коленвал, маховик</EngineSparePartType>
+	<EngineSparePartType>Коллекторы</EngineSparePartType>
+	<EngineSparePartType>Крепление двигателя</EngineSparePartType>
+	<EngineSparePartType>Масляный насос, система смазки</EngineSparePartType>
+	<EngineSparePartType>Патрубки вентиляции</EngineSparePartType>
+	<EngineSparePartType>Поршни, шатуны, кольца</EngineSparePartType>
+	<EngineSparePartType>Приводные ремни, натяжители</EngineSparePartType>
+	<EngineSparePartType>Прокладки и ремкомплекты</EngineSparePartType>
+	<EngineSparePartType>Ремни, цепи, элементы ГРМ</EngineSparePartType>
+	<EngineSparePartType>Турбины, компрессоры</EngineSparePartType>
+	<EngineSparePartType>Электродвигатели и компоненты</EngineSparePartType>
+	<BodySparePartType>Балки, лонжероны</BodySparePartType>
+	<BodySparePartType>Бамперы</BodySparePartType>
+	<BodySparePartType>Брызговики</BodySparePartType>
+	<BodySparePartType>Двери</BodySparePartType>
+	<BodySparePartType>Заглушки</BodySparePartType>
+	<BodySparePartType>Замки</BodySparePartType>
+	<BodySparePartType>Защита</BodySparePartType>
+	<BodySparePartType>Зеркала</BodySparePartType>
+	<BodySparePartType>Кабина</BodySparePartType>
+	<BodySparePartType>Капот</BodySparePartType>
+	<BodySparePartType>Крепления</BodySparePartType>
+	<BodySparePartType>Крылья</BodySparePartType>
+	<BodySparePartType>Крыша</BodySparePartType>
+	<BodySparePartType>Крышка, дверь багажника</BodySparePartType>
+	<BodySparePartType>Кузов по частям</BodySparePartType>
+	<BodySparePartType>Кузов целиком</BodySparePartType>
+	<BodySparePartType>Лючок бензобака</BodySparePartType>
+	<BodySparePartType>Молдинги, накладки</BodySparePartType>
+	<BodySparePartType>Пороги</BodySparePartType>
+	<BodySparePartType>Рама</BodySparePartType>
+	<BodySparePartType>Решетка радиатора</BodySparePartType>
+	<BodySparePartType>Стойка кузова</BodySparePartType>
+</AvitoTags>

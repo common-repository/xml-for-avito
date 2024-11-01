@@ -1,0 +1,10 @@
+.xfavi_bold {font-weight: 700;}
+.xfavi_tr {border-top-width: 2px; border-top-style: dashed; border-top-color: #e7e2e2;}
+.xfavi_input, .xfavi_textarea {width: 100%; padding: 3px 24px 3px 8px !important;}
+.xfavi_input::placeholder, .xfavi_textarea::placeholder {color: #ccc; font-style: italic;}
+/* #xfavi_add_in_name_arr, #xfavi_params_arr, #xfavip_exclude_cat_arr, #xfavibe_books_cat_arr {min-height: 280px !important;} */
+.wp-admin select {padding: 3px 24px 3px 8px !important;} /* .form-table {table-layout: fixed !important;} */
+.meta-box-sortables select {width: 100% !important;}
+.woocommerce table.form-table input[type="text"], .woocommerce table.form-table input[type="number"] {max-width: 100% !important;} 
+/* .woocommerce table.form-table select, убрал тк. какой то конфликт со стилями YITH WooCommerce Tab Manager Premium при активной PRO*/
+#xfavi_extensions .form-table td p {font-size: 18px !important;}

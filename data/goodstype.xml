@@ -1,0 +1,1513 @@
+<Categories>
+	<Category name="Ремонт и строительство" avito_standart="dom">
+		<GoodsType name="Готовые строения и срубы" type_name="GoodsType">
+			<GoodsSubType name="Веранда или терраса" type_name="GoodsSubType" />
+			<GoodsSubType name="Беседка" type_name="GoodsSubType" />
+			<GoodsSubType name="Навес" type_name="GoodsSubType" />
+			<GoodsSubType name="Другой" type_name="GoodsSubType" />
+			<GoodsSubType name="Дом" type_name="GoodsSubType" />
+			<GoodsSubType name="Туалет" type_name="GoodsSubType" />
+			<GoodsSubType name="Колодец" type_name="GoodsSubType" />
+			<GoodsSubType name="Теплица" type_name="GoodsSubType" />
+			<GoodsSubType name="Хозблок" type_name="GoodsSubType" />
+			<GoodsSubType name="Бытовка" type_name="GoodsSubType" />
+			<GoodsSubType name="Для животных" type_name="GoodsSubType" />
+			<GoodsSubType name="Гараж" type_name="GoodsSubType" />
+			<GoodsSubType name="Баня" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Стройматериалы" type_name="GoodsType">
+			<GoodsSubType name="Изоляция" type_name="GoodsSubType" />
+			<GoodsSubType name="Крепёж" type_name="GoodsSubType" />
+			<GoodsSubType name="Кровля и водосток" type_name="GoodsSubType" />
+			<GoodsSubType name="Лаки и краски" type_name="GoodsSubType" />
+			<GoodsSubType name="Металлопрокат" type_name="GoodsSubType">
+				<AnotherType name="Сортовой прокат" type_name="MaterialType">
+					<AnotherSubType name="Арматура" type_name="MaterialSubType" />
+					<AnotherSubType name="Квадрат" type_name="MaterialSubType/" />
+					<AnotherSubType name="Круг" type_name="MaterialSubType" />
+					<AnotherSubType name="Шестигранник" type_name="MaterialSubType" />
+					<AnotherSubType name="Проволока" type_name="MaterialSubType" />
+				</AnotherType>
+				<AnotherType name="Фасонный прокат" type_name="MaterialType">
+					<AnotherSubType name="Двутавровая балка" type_name="MaterialSubType" />
+					<AnotherSubType name="Уголки" type_name="MaterialSubType" />
+					<AnotherSubType name="Швеллер" type_name="MaterialSubType" />
+					<AnotherSubType name="Шпунт" type_name="MaterialSubType" />
+				</AnotherType>
+				<AnotherType name="Листовой прокат" type_name="MaterialType">
+					<AnotherSubType name="Лист" type_name="MaterialSubType" />
+					<AnotherSubType name="Полоса" type_name="MaterialSubType" />
+					<AnotherSubType name="Лента" type_name="MaterialSubType" />
+				</AnotherType>
+				<AnotherType name="Трубный прокат" type_name="MaterialType" />
+				<AnotherType name="Сетка" type_name="MaterialType" />
+				<AnotherType name="Слитки, лом, поковки" type_name="MaterialType" />
+				<AnotherType name="Другое" type_name="MaterialType" />
+			</GoodsSubType>
+			<GoodsSubType name="Отделка" type_name="GoodsSubType">
+				<AnotherType name="Напольные покрытия" type_name="FinishingMaterialsType">
+					<AnotherSubType name="Ламинат" type_name="FlooringMaterialsSubType" />
+					<AnotherSubType name="Кварц-винил" type_name="FlooringMaterialsSubType" />
+					<AnotherSubType name="Подложки, плинтусы, пороги"
+						type_name="FlooringMaterialsSubType" />
+					<AnotherSubType name="Паркет, инженерная доска"
+						type_name="FlooringMaterialsSubType" />
+					<AnotherSubType name="Линолеум" type_name="FlooringMaterialsSubType" />
+					<AnotherSubType name="ПВХ плитка" type_name="FlooringMaterialsSubType" />
+					<AnotherSubType name="Ковролин" type_name="FlooringMaterialsSubType" />
+				</AnotherType>
+				<AnotherType name="Керамическая плитка и керамогранит"
+					type_name="FinishingMaterialsType">
+					<AnotherSubType name="Ревизионные люки" type_name="CeramicPorcelainTilesSubType" />
+					<AnotherSubType name="Керамогранит" type_name="CeramicPorcelainTilesSubType" />
+					<AnotherSubType name="Керамическая плитка"
+						type_name="CeramicPorcelainTilesSubType" />
+					<AnotherSubType name="Расходные материалы для укладки плитки"
+						type_name="CeramicPorcelainTilesSubType" />
+				</AnotherType>
+				<AnotherType name="Обои" type_name="FinishingMaterialsType">
+					<AnotherSubType name="Обои" type_name="WallpaperSubType" />
+					<AnotherSubType name="Клей для обоев" type_name="WallpaperSubType" />
+				</AnotherType>
+				<AnotherType name="Наружная отделка и декоративный камень"
+					type_name="FinishingMaterialsType">
+					<AnotherSubType name="Сайдинг и фасадные панели"
+						type_name="ExteriorFinishingDecorativeStoneSubType" />
+					<AnotherSubType name="Облицовочный и декоративный камень"
+						type_name="ExteriorFinishingDecorativeStoneSubType" />
+					<AnotherSubType name="Натуральный камень"
+						type_name="ExteriorFinishingDecorativeStoneSubType" />
+					<AnotherSubType name="Тротуарная плитка"
+						type_name="ExteriorFinishingDecorativeStoneSubType" />
+				</AnotherType>
+				<AnotherType name="Стеновые панели, рейки и элементы декора"
+					type_name="FinishingMaterialsType">
+					<AnotherSubType name="Стеновые панели"
+						type_name="ExteriorFinishingDecorativeStoneSubType" />
+					<AnotherSubType name="Рейки" type_name="ExteriorFinishingDecorativeStoneSubType" />
+					<AnotherSubType name="Молдинги и лепнина"
+						type_name="ExteriorFinishingDecorativeStoneSubType" />
+				</AnotherType>
+			</GoodsSubType>
+			<GoodsSubType name="Пиломатериалы" type_name="GoodsSubType" />
+			<GoodsSubType name="Строительные смеси" type_name="GoodsSubType">
+				<AnotherType name="Бетон" type_name="MixesType" />
+				<AnotherType name="Штукатурка" type_name="MixesType" />
+				<AnotherType name="Грунтовка" type_name="MixesType" />
+				<AnotherType name="Смеси для пола" type_name="MixesType" />
+				<AnotherType name="Шпаклёвка" type_name="MixesType" />
+				<AnotherType name="Цемент, пескобетон" type_name="MixesType" />
+				<AnotherType name="Кладочная смесь и монтажный клей" type_name="MixesType" />
+				<AnotherType name="Затирки" type_name="MixesType" />
+				<AnotherType name="Добавки для растворов" type_name="MixesType" />
+				<AnotherType name="Другое" type_name="MixesType" />
+			</GoodsSubType>
+			<GoodsSubType name="Строительство стен" type_name="GoodsSubType" />
+			<GoodsSubType name="Электрика" type_name="GoodsSubType" />
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+			<GoodsSubType name="Листовые материалы" type_name="GoodsSubType">
+				<AnotherType name="Листовой пластик" type_name="SheetMaterialsType">
+					<AnotherSubType name="Поликарбонат и оргстекло"
+						type_name="SheetMaterialsSubType" />
+					<AnotherSubType name="Полимерный пластик и стержни"
+						type_name="SheetMaterialsSubType" />
+				</AnotherType>
+				<AnotherType name="Гипсокартон" type_name="SheetMaterialsType">
+					<AnotherSubType name="ГКЛ" type_name="SheetMaterialsSubType" />
+					<AnotherSubType name="ГВЛ" type_name="SheetMaterialsSubType" />
+				</AnotherType>
+				<AnotherType name="Баннеры, брезент и тенты" type_name="SheetMaterialsType" />
+				<AnotherType name="Древесноплитные материалы" type_name="SheetMaterialsType">
+					<AnotherSubType name="Фанера" type_name="SheetMaterialsSubType" />
+					<AnotherSubType name="ДСП, ОСБ" type_name="SheetMaterialsSubType" />
+					<AnotherSubType name="ДВП, МДФ, ХДФ" type_name="SheetMaterialsSubType" />
+					<AnotherSubType name="ЦСП" type_name="SheetMaterialsSubType" />
+					<AnotherSubType name="Другое" type_name="SheetMaterialsSubType" />
+				</AnotherType>
+			</GoodsSubType>
+			<GoodsSubType name="Лестницы и комплектующие" type_name="GoodsSubType" />
+			<GoodsSubType name="Ворота, заборы и ограждения" type_name="GoodsSubType" />
+			<GoodsSubType name="Сыпучие материалы" type_name="GoodsSubType">
+				<AnotherType name="Щебень, гравий" type_name="BulkMaterialType">
+					<AnotherSubType name="Щебень" type_name="BulkMaterialSubType" />
+					<AnotherSubType name="Гравий" type_name="BulkMaterialSubType" />
+				</AnotherType>
+				<AnotherType name="Песок" type_name="BulkMaterialType">
+					<AnotherSubType name="Речной" type_name="BulkMaterialSubType" />
+					<AnotherSubType name="Карьерный" type_name="BulkMaterialSubType" />
+					<AnotherSubType name="Морской" type_name="BulkMaterialSubType" />
+					<AnotherSubType name="Кварцевый" type_name="BulkMaterialSubType" />
+					<AnotherSubType name="Перлитовый" type_name="BulkMaterialSubType" />
+					<AnotherSubType name="Керамзитовый" type_name="BulkMaterialSubType" />
+					<AnotherSubType name="Мраморный" type_name="BulkMaterialSubType" />
+					<AnotherSubType name="Доломитовый" type_name="BulkMaterialSubType" />
+					<AnotherSubType name="Термозитный" type_name="BulkMaterialSubType" />
+				</AnotherType>
+				<AnotherType name="Песчаные смеси" type_name="BulkMaterialType" />
+				<AnotherType name="Грунт, чернозем, органические удобрения "
+					type_name="BulkMaterialType" />
+				<AnotherType name="Асфальт и асфальтная крошка" type_name="BulkMaterialType" />
+				<AnotherType name="Бой" type_name="BulkMaterialType" />
+				<AnotherType name="Крошка, отсев" type_name="BulkMaterialType" />
+				<AnotherType name="Керамзит" type_name="BulkMaterialType" />
+				<AnotherType name="Камень, галька" type_name="BulkMaterialType" />
+				<AnotherType name="Глина" type_name="BulkMaterialType" />
+				<AnotherType name="Другое" type_name="BulkMaterialType" />
+			</GoodsSubType>
+			<GoodsSubType name="Железобетонные изделия" type_name="GoodsSubType">
+				<AnotherType name="Дорожные" type_name="FerroconcreteType">
+					<AnotherSubType name="Аэродромные плиты" type_name="ProductType" />
+					<AnotherSubType name="Дорожные плиты" type_name="ProductType" />
+					<AnotherSubType name="Бордюры" type_name="ProductType" />
+				</AnotherType>
+				<AnotherType name="Другие" type_name="FerroconcreteType" />
+				<AnotherType name="Строительные" type_name="FerroconcreteType">
+					<AnotherSubType name="Фундаментные блоки (ФБС)" type_name="FerroconcreteType" />
+					<AnotherSubType name="Плиты стеновые" type_name="FerroconcreteType" />
+					<AnotherSubType name="Плиты перекрытия" type_name="FerroconcreteType" />
+					<AnotherSubType name="Перемычки" type_name="FerroconcreteType" />
+					<AnotherSubType name="Балки, колонны, прогоны" type_name="FerroconcreteType" />
+					<AnotherSubType name="Лестничные марши, площадки, ступени"
+						type_name="FerroconcreteType" />
+				</AnotherType>
+				<AnotherType name="Инженерные" type_name="FerroconcreteType">
+					<AnotherSubType name="Кольца, люки, днища" type_name="ProductType" />
+					<AnotherSubType name="Опоры и столбы" type_name="ProductType" />
+					<AnotherSubType name="Лотки, каналы, короба" type_name="ProductType" />
+					<AnotherSubType name="Трубы" type_name="ProductType" />
+				</AnotherType>
+			</GoodsSubType>
+			<GoodsSubType name="Сваи" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Сантехника, водоснабжение и сауна" type_name="GoodsType">
+			<GoodsSubType name="Аксессуары для ванной">
+				<AnotherType name="Полки, держатели, стаканы" type_name="BathroomAccessoriestype" />
+				<AnotherType name="Шторки, коврики" type_name="BathroomAccessoriestype" />
+				<AnotherType name="Крючки, вешалки" type_name="BathroomAccessoriestype" />
+				<AnotherType name="Мыльницы, дозаторы" type_name="BathroomAccessoriestype" />
+				<AnotherType name="Ёршики" type_name="BathroomAccessoriestype" />
+				<AnotherType name="Другое" type_name="BathroomAccessoriestype" />
+			</GoodsSubType>
+			<GoodsSubType name="Бассейны" />
+			<GoodsSubType name="Ванны и комплектующие">
+				<AnotherType name="Ванны" type_name="PlumbingType" />
+				<AnotherType name="Шторки и перегородки" type_name="PlumbingType" />
+				<AnotherType name="Экраны" type_name="PlumbingType" />
+				<AnotherType name="Комплектующие" type_name="PlumbingType" />
+			</GoodsSubType>
+			<GoodsSubType name="Водоснабжение и канализация">
+				<AnotherType name="Арматура и автоматика" type_name="PlumbingType" />
+				<AnotherType name="Насосы" type_name="PlumbingType" />
+				<AnotherType name="Водоочистка и фильтры" type_name="PlumbingType" />
+				<AnotherType name="Баки, ёмкости, гидроаккумуляторы" type_name="PlumbingType" />
+				<AnotherType name="Трубы и фитинги" type_name="PlumbingType" />
+				<AnotherType name="Септики и биостанции" type_name="PlumbingType">
+					<AnotherSubType name="Септик" type_name="PlumbingSubType" />
+					<AnotherSubType name="Биостанция" type_name="PlumbingSubType" />
+				</AnotherType>
+				<AnotherType name="Коллекторы и смесительные узлы" type_name="PlumbingType" />
+				<AnotherType name="Водонагреватели" type_name="PlumbingType" />
+				<AnotherType name="Другое" type_name="PlumbingType" />
+			</GoodsSubType>
+			<GoodsSubType name="Душевые кабины и ограждения" type_name="GoodsSubType">
+				<AnotherType name="Душевые уголки, перегородки и двери" type_name="PlumbingType" />
+				<AnotherType name="Душевые поддоны" type_name="PlumbingType" />
+				<AnotherType name="Душевые кабины и боксы" type_name="PlumbingType" />
+				<AnotherType name="Комплектующие" type_name="PlumbingType" />
+			</GoodsSubType>
+			<GoodsSubType name="Душевые системы и лейки" type_name="GoodsSubType">
+				<AnotherType name="Лейки, душевые панели, стойки и гарнитуры"
+					type_name="PlumbingType" />
+				<AnotherType name="Комплектующие" type_name="PlumbingType" />
+			</GoodsSubType>
+			<GoodsSubType name="Кухонные мойки и комплектующие" type_name="GoodsSubType">
+				<AnotherType name="Кухонные мойки" type_name="PlumbingType" />
+				<AnotherType name="Комплектующие" type_name="PlumbingType" />
+			</GoodsSubType>
+			<GoodsSubType name="Мебель для ванной" type_name="GoodsSubType">
+				<AnotherType name="Тумбы" type_name="PlumbingType" />
+				<AnotherType name="Зеркала" type_name="PlumbingType" />
+				<AnotherType name="Шкафы и комоды" type_name="PlumbingType" />
+				<AnotherType name="Стеллажи, стойки, этажерки и полки" type_name="PlumbingType" />
+				<AnotherType name="Освещение" type_name="PlumbingType" />
+				<AnotherType name="Столешницы под раковину" type_name="PlumbingType" />
+				<AnotherType name="Гарнитуры" type_name="PlumbingType" />
+				<AnotherType name="Комплектующие" type_name="PlumbingType" />
+				<AnotherType name="Другое" type_name="PlumbingType" />
+			</GoodsSubType>
+			<GoodsSubType name="Полотенцесушители" type_name="GoodsSubType">
+				<AnotherType name="Полотенцесушители" type_name="PlumbingType" />
+				<AnotherType name="Комплектующие" type_name="PlumbingType" />
+			</GoodsSubType>
+			<GoodsSubType name="Раковины, умывальники, пьедесталы" type_name="GoodsSubType">
+				<AnotherType name="Раковины" type_name="PlumbingType" />
+				<AnotherType name="Раковины" type_name="PlumbingType" />
+				<AnotherType name="Комплектующие" type_name="PlumbingType" />
+			</GoodsSubType>
+			<GoodsSubType name="Смесители и комплектующие" type_name="GoodsSubType">
+				<AnotherType name="Смесители" type_name="PlumbingType" />
+				<AnotherType name="Комплектующие" type_name="PlumbingType" />
+			</GoodsSubType>
+			<GoodsSubType name="Товары для бани и сауны" type_name="GoodsSubType" />
+			<GoodsSubType name="Унитазы, писсуары, биде, инсталляции">
+				<AnotherType name="Унитазы и бачки" type_name="PlumbingType" />
+				<AnotherType name="Инсталляции" type_name="PlumbingType" />
+				<AnotherType name="Писсуары" type_name="PlumbingType" />
+				<AnotherType name="Биде" type_name="PlumbingType" />
+				<AnotherType name="Комплектующие" type_name="PlumbingType" />
+			</GoodsSubType>
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Инструменты" type_name="GoodsType">
+			<GoodsSubType name="Электроинструменты" type_name="ToolType">
+				<AnotherType name="Болгарки (УШМ)" type_name="ToolSubType" />
+				<AnotherType name="Дрели и шуруповерты" type_name="ToolSubType" />
+				<AnotherType name="Миксеры строительные" type_name="ToolSubType" />
+				<AnotherType name="Отбойные молотки" type_name="ToolSubType" />
+				<AnotherType name="Перфораторы" type_name="ToolSubType" />
+				<AnotherType name="Пилы электрические" type_name="ToolSubType" />
+				<AnotherType name="Пистолеты монтажные" type_name="ToolSubType" />
+				<AnotherType name="Плиткорезы" type_name="ToolSubType" />
+				<AnotherType name="Пылесосы строительные" type_name="ToolSubType" />
+				<AnotherType name="Фены строительные" type_name="ToolSubType" />
+				<AnotherType name="Фрезеры" type_name="ToolSubType" />
+				<AnotherType name="Шлифовальные машины" type_name="ToolSubType" />
+				<AnotherType name="Электролобзики" type_name="ToolSubType" />
+				<AnotherType name="Электрорубанки" type_name="ToolSubType" />
+				<AnotherType name="Другое" type_name="ToolSubType" />
+			</GoodsSubType>
+			<GoodsSubType name="Ручные инструменты" type_name="ToolType">
+				<AnotherType name="Домкраты" type_name="ToolSubType" />
+				<AnotherType name="Ключи" type_name="ToolSubType" />
+				<AnotherType name="Малярные инструменты" type_name="ToolSubType" />
+				<AnotherType name="Наборы инструментов" type_name="ToolSubType" />
+				<AnotherType name="Ножницы" type_name="ToolSubType" />
+				<AnotherType name="Отвёртки" type_name="ToolSubType" />
+				<AnotherType name="Пилы и лобзики" type_name="ToolSubType" />
+				<AnotherType name="Пистолеты для пены и герметика" type_name="ToolSubType" />
+				<AnotherType name="Плиткорезы" type_name="ToolSubType" />
+				<AnotherType name="Столярные инструменты" type_name="ToolSubType" />
+				<AnotherType name="Тиски и струбцины" type_name="ToolSubType" />
+				<AnotherType name="Ударно-рычажные инструменты" type_name="ToolSubType" />
+				<AnotherType name="Другое" type_name="ToolSubType" />
+			</GoodsSubType>
+			<GoodsSubType name="Измерительные инструменты" type_name="ToolType">
+				<AnotherType name="Лазерные рулетки и дальномеры" type_name="ToolSubType" />
+				<AnotherType name="Лазерные уровни и нивелиры" type_name="ToolSubType" />
+				<AnotherType name="Пирометры и прочие детекторы" type_name="ToolSubType" />
+				<AnotherType name="Разметочные инструменты" type_name="ToolSubType" />
+				<AnotherType name="Рулетки" type_name="ToolSubType" />
+				<AnotherType name="Ручные измерительные инструменты" type_name="ToolSubType" />
+				<AnotherType name="Строительные уровни" type_name="ToolSubType" />
+				<AnotherType name="Штативы, рейки, держатели" type_name="ToolSubType" />
+				<AnotherType name="Электроизмерительные приборы и тестеры" type_name="ToolSubType" />
+				<AnotherType name="Другое" type_name="ToolSubType" />
+			</GoodsSubType>
+			<GoodsSubType name="Газовое и сварочное оборудование" type_name="ToolType">
+				<AnotherType name="Аксессуары и комплектующие для сварки" type_name="ToolSubType" />
+				<AnotherType name="Газовые горелки и паяльные лампы" type_name="ToolSubType" />
+				<AnotherType name="Маски и перчатки для сварки" type_name="ToolSubType" />
+				<AnotherType name="Паяльники и аксессуары" type_name="ToolSubType" />
+				<AnotherType name="Сварочные аппараты" type_name="ToolSubType" />
+				<AnotherType name="Электроды, проволока, прутки" type_name="ToolSubType" />
+			</GoodsSubType>
+			<GoodsSubType name="Расходные материалы и оснастка" type_name="ToolType">
+				<AnotherType name="Алмазные диски" type_name="ToolSubType" />
+				<AnotherType name="Буры, долота, пики" type_name="ToolSubType" />
+				<AnotherType name="Зарядные устройства и аккумуляторы" type_name="ToolSubType" />
+				<AnotherType name="Коронки" type_name="ToolSubType" />
+				<AnotherType name="Отрезные круги и пильные диски" type_name="ToolSubType" />
+				<AnotherType name="Патроны и переходники" type_name="ToolSubType" />
+				<AnotherType name="Свёрла" type_name="ToolSubType" />
+				<AnotherType name="Шлифовальные круги и насадки" type_name="ToolSubType" />
+				<AnotherType name="Другое" type_name="ToolSubType" />
+			</GoodsSubType>
+			<GoodsSubType name="Другие инструменты" type_name="ToolType">
+				<AnotherType name="Аппараты" type_name="ToolSubType" />
+				<AnotherType name="Верстаки и оборудование для мастерской" type_name="ToolSubType" />
+				<AnotherType name="Компрессоры" type_name="ToolSubType" />
+				<AnotherType name="Лестницы, стремянки, вышки-туры" type_name="ToolSubType" />
+				<AnotherType name="Насосы и комплектующие" type_name="ToolSubType" />
+				<AnotherType name="Такелаж" type_name="ToolSubType" />
+			</GoodsSubType>
+			<GoodsSubType name="Силовая, строительная техника и комплектующие" type_name="ToolType">
+				<AnotherType name="Бетономешалки" type_name="ToolSubType" />
+				<AnotherType name="Вибраторы" type_name="ToolSubType" />
+				<AnotherType name="Виброплиты" type_name="ToolSubType" />
+				<AnotherType name="Станки" type_name="ToolSubType" />
+				<AnotherType name="Установки для бурения" type_name="ToolSubType" />
+			</GoodsSubType>
+			<GoodsSubType name="Электрика" type_name="ToolType">
+				<AnotherType name="Генераторы" type_name="ToolSubType" />
+				<AnotherType name="Двигатели" type_name="ToolSubType" />
+				<AnotherType name="Кабели и провода" type_name="ToolSubType" />
+				<AnotherType name="Стабилизаторы напряжения" type_name="ToolSubType" />
+				<AnotherType name="Трансформаторы" type_name="ToolSubType" />
+				<AnotherType name="Другое" type_name="ToolSubType" />
+			</GoodsSubType>
+			<GoodsSubType name="Бензопилы" type_name="ToolType" />
+			<GoodsSubType name="Спецодежда и средства защиты" type_name="ToolType">
+				<AnotherType name="Каски строительные" type_name="ToolSubType" />
+				<AnotherType name="Маски, очки" type_name="ToolSubType" />
+				<AnotherType name="Наушники и беруши" type_name="ToolSubType" />
+				<AnotherType name="Неодимовые магниты" type_name="ToolSubType" />
+				<AnotherType name="Огнетушители" type_name="ToolSubType" />
+				<AnotherType name="Перчатки, рукавицы" type_name="ToolSubType" />
+				<AnotherType name="Пояса, ремни, сумки" type_name="ToolSubType" />
+				<AnotherType name="Респираторы" type_name="ToolSubType" />
+				<AnotherType name="Спецодежда, обувь и наколенники" type_name="ToolSubType" />
+				<AnotherType name="Другое" type_name="ToolSubType" />
+			</GoodsSubType>
+			<GoodsSubType name="Садовая техника" type_name="ToolType">
+				<AnotherType name="Газонокосилки и триммеры" type_name="ToolSubType" />
+				<AnotherType name="Канистры" type_name="ToolSubType" />
+				<AnotherType name="Лопаты" type_name="ToolSubType" />
+				<AnotherType name="Тачки и тележки" type_name="ToolSubType" />
+			</GoodsSubType>
+			<GoodsSubType name="Другое" type_name="ToolType" />
+		</GoodsType>
+		<GoodsType name="Окна и балконы" type_name="GoodsType">
+			<GoodsSubType name="Балконы" type_name="GlazingType" />
+			<GoodsSubType name="Окна" type_name="GlazingType" />
+			<GoodsSubType name="Фурнитура и аксессуары для окон" type_name="GlazingType" />
+			<GoodsSubType name="Подоконники, откосы, решётки" type_name="GlazingType" />
+			<GoodsSubType name="Мягкие окна" type_name="GlazingType" />
+			<GoodsSubType name="Стеклопакеты без обрамления" type_name="GlazingType" />
+			<GoodsSubType name="Балконные двери" type_name="GlazingType" />
+		</GoodsType>
+		<GoodsType name="Потолки" type_name="GoodsType" />
+		<GoodsType name="Двери" type_name="GoodsType">
+			<GoodsSubType name="Межкомнатные" type_name="DoorType" />
+			<GoodsSubType name="Входные" type_name="DoorType" />
+			<GoodsSubType name="Фурнитура" type_name="DoorType" />
+			<GoodsSubType name="Перегородки" type_name="DoorType" />
+			<GoodsSubType name="Другое" type_name="DoorType" />
+		</GoodsType>
+		<GoodsType name="Камины и обогреватели" type_name="GoodsType">
+			<GoodsSubType name="Комплектующие и аксессуары" type_name="GoodsSubType">
+				<AnotherType name="Дымоходы" type_name="ComponentsType" />
+				<AnotherType name="Топливные брикеты, уголь" type_name="ComponentsType" />
+				<AnotherType name="Комплектующие для системы отопления" type_name="ComponentsType" />
+			</GoodsSubType>
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+			<GoodsSubType name="Печи и камины" type_name="GoodsSubType">
+				<AnotherType name="Печи для бани и сауны" type_name="OvensType" />
+				<AnotherType name="Камины и печи для дома" type_name="OvensType" />
+			</GoodsSubType>
+			<GoodsSubType name="Отопительные системы" type_name="GoodsSubType">
+				<GoodsSubType name="Радиаторы отопления и конвекторы" type_name="HeatingType" />
+				<GoodsSubType name="Котлы" type_name="HeatingType" />
+				<GoodsSubType name="Тёплые полы" type_name="HeatingType" />
+			</GoodsSubType>
+			<GoodsSubType name="Обогреватели" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Садовая техника" type_name="GoodsType" />
+	</Category>
+	<Category name="Мебель и интерьер" avito_standart="dom">
+		<GoodsType name="Кровати, диваны и кресла" type_name="GoodsType">
+			<GoodsSubType name="Диваны" type_name="GoodsSubType">
+				<AnotherType name="Прямой" type_name="FurnitureType" />
+				<AnotherType name="Угловой" type_name="FurnitureType" />
+				<AnotherType name="П-образный" type_name="FurnitureType" />
+				<AnotherType name="Полукруглый" type_name="FurnitureType" />
+				<AnotherType name="Круглый" type_name="FurnitureType" />
+			</GoodsSubType>
+			<GoodsSubType name="Кресла" type_name="GoodsSubType">
+				<AnotherType name="Обычное" type_name="FurnitureType" />
+				<AnotherType name="Кресло-кровать" type_name="FurnitureType" />
+				<AnotherType name="Кресло-качалка" type_name="FurnitureType" />
+				<AnotherType name="Кресло-мешок" type_name="FurnitureType" />
+				<AnotherType name="Папасан" type_name="FurnitureType" />
+				<AnotherType name="Подвесное" type_name="FurnitureType" />
+				<AnotherType name="Шезлонг" type_name="FurnitureType" />
+				<AnotherType name="Другой" type_name="FurnitureType" />
+			</GoodsSubType>
+			<GoodsSubType name="Кровати" type_name="GoodsSubType">
+				<AnotherType name="Односпальная" type_name="FurnitureType" />
+				<AnotherType name="Двуспальная" type_name="FurnitureType" />
+				<AnotherType name="Двухъярусная" type_name="FurnitureType" />
+				<AnotherType name="Кровать-чердак" type_name="FurnitureType" />
+				<AnotherType name="Другой" type_name="FurnitureType" />
+			</GoodsSubType>
+			<GoodsSubType name="Матрасы" type_name="GoodsSubType" />
+			<GoodsSubType name="Пуфы и банкетки" type_name="GoodsSubType">
+				<AnotherType name="Пуф" type_name="FurnitureType" />
+				<AnotherType name="Банкетка" type_name="FurnitureType" />
+				<AnotherType name="Другой" type_name="FurnitureType" />
+			</GoodsSubType>
+			<GoodsSubType name="Спальные гарнитуры" type_name="GoodsSubType" />
+			<GoodsSubType name="Комплектующие" type_name="GoodsSubType">
+				<AnotherType name="Изголовье" type_name="FurnitureType" />
+				<AnotherType name="Ламель" type_name="FurnitureType" />
+				<AnotherType name="Механизм" type_name="FurnitureType" />
+				<AnotherType name="Наполнитель для кресел" type_name="FurnitureType" />
+				<AnotherType name="Основание для кровати" type_name="FurnitureType" />
+				<AnotherType name="Пружинный блок" type_name="FurnitureType" />
+				<AnotherType name="Реечное дно" type_name="FurnitureType" />
+				<AnotherType name="Ящик" type_name="FurnitureType" />
+				<AnotherType name="Другой" type_name="FurnitureType" />
+			</GoodsSubType>
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Столы и стулья" type_name="GoodsType">
+			<GoodsSubType name="Столы" type_name="GoodsSubType" />
+			<GoodsSubType name="Стулья" type_name="GoodsSubType" />
+			<GoodsSubType name="Обеденная группа" type_name="GoodsSubType" />
+			<GoodsSubType name="Табуретки" type_name="GoodsSubType" />
+			<GoodsSubType name="Скамейки" type_name="GoodsSubType" />
+			<GoodsSubType name="Комплектующие" type_name="GoodsSubType" />
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Шкафы, комоды и стеллажи" type_name="GoodsType">
+			<GoodsSubType name="Шкафы" type_name="GoodsSubType" />
+			<GoodsSubType name="Комоды" type_name="GoodsSubType" />
+			<GoodsSubType name="Стеллажи и этажерки" type_name="GoodsSubType" />
+			<GoodsSubType name="Полки" type_name="GoodsSubType" />
+			<GoodsSubType name="Прихожие и обувницы" type_name="GoodsSubType" />
+			<GoodsSubType name="Гардеробные системы и вешалки" type_name="GoodsSubType" />
+			<GoodsSubType name="Гарнитуры и комплекты" type_name="GoodsSubType" />
+			<GoodsSubType name="Комплектующие" type_name="GoodsSubType" />
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Текстиль и ковры" type_name="GoodsType" />
+		<GoodsType name="Компьютерные столы и кресла" type_name="GoodsType">
+			<GoodsSubType name="Столы" type_name="GoodsSubType" />
+			<GoodsSubType name="Кресла и стулья" type_name="GoodsSubType">
+				<AnotherType name="Компьютерные кресла" type_name="DeskChairType" />
+				<AnotherType name="Стулья для работы" type_name="DeskChairType" />
+			</GoodsSubType>
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Кухонные гарнитуры" type_name="GoodsType" />
+		<GoodsType name="Освещение" type_name="GoodsType">
+			<GoodsSubType name="Светодиодная подсветка" type_name="GoodsSubType" />
+			<GoodsSubType name="Настольное и напольное" type_name="GoodsSubType" />
+			<GoodsSubType name="Декоративное освещение и гирлянды" type_name="GoodsSubType" />
+			<GoodsSubType name="Уличное" type_name="GoodsSubType" />
+			<GoodsSubType name="Комплектующие" type_name="GoodsSubType" />
+			<GoodsSubType name="Потолочное и настенное" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Подставки и тумбы" type_name="GoodsType">
+			<GoodsSubType name="Тумбы" type_name="GoodsSubType">
+				<AnotherType name="Тумбы" type_name="CabinetType" />
+				<AnotherType name="Тумбы под телевизор" type_name="CabinetType" />
+				<AnotherType name="Прикроватные тумбы" type_name="CabinetType" />
+				<AnotherType name="Тумбы для ванной" type_name="CabinetType" />
+				<AnotherType name="Обувницы" type_name="CabinetType" />
+			</GoodsSubType>
+			<GoodsSubType name="Подставки и полки" type_name="GoodsSubType">
+				<AnotherType name="Полки" type_name="RackType" />
+				<AnotherType name="Подставки для растений" type_name="RackType" />
+				<AnotherType name="Другие подставки" type_name="RackType" />
+			</GoodsSubType>
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Предметы интерьера, искусство" type_name="GoodsType">
+			<GoodsSubType name="Зеркала" type_name="GoodsSubType" />
+			<GoodsSubType name="Вазы, кашпо, искусственные цветы" type_name="GoodsSubType">
+				<AnotherType name="Вазы" type_name="InteriorSubType" />
+				<AnotherType name="Горшки и кашпо" type_name="InteriorSubType" />
+				<AnotherType name="Искусственные цветы" type_name="InteriorSubType" />
+			</GoodsSubType>
+			<GoodsSubType name="Ароматы для дома и свечи" type_name="GoodsSubType">
+				<AnotherType name="Свечи" type_name="InteriorSubType" />
+				<AnotherType name="Подсвечники" type_name="InteriorSubType" />
+				<AnotherType name="Диффузоры, спреи и саше" type_name="InteriorSubType" />
+			</GoodsSubType>
+			<GoodsSubType name="Декор интерьера" type_name="GoodsSubType" />
+			<GoodsSubType name="Предметы для хранения" type_name="GoodsSubType">
+				<AnotherType name="Шкатулки" type_name="InteriorSubType" />
+				<AnotherType name="Корзины, коробки и сундуки" type_name="InteriorSubType" />
+			</GoodsSubType>
+			<GoodsSubType name="Новогодние украшения" type_name="GoodsSubType">
+				<AnotherType name="Новогодние украшения" type_name="InteriorSubType" />
+				<AnotherType name="Искусственные ёлки" type_name="InteriorSubType" />
+			</GoodsSubType>
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+			<GoodsSubType name="Картины, постеры и рамки" type_name="GoodsSubType">
+				<AnotherType name="Картины" type_name="InteriorSubType" />
+				<AnotherType name="Рамки" type_name="InteriorSubType" />
+				<AnotherType name="Панно" type_name="InteriorSubType" />
+				<AnotherType name="Постеры и таблички" type_name="InteriorSubType" />
+				<AnotherType name="Иконы" type_name="InteriorSubType" />
+			</GoodsSubType>
+		</GoodsType>
+		<GoodsType name="Другое" type_name="GoodsType" />
+	</Category>
+	<Category name="Бытовая техника" avito_standart="dom">
+		<GoodsType name="Пылесосы" type_name="GoodsType" />
+		<GoodsType name="Стиральные машины" type_name="GoodsType" />
+		<GoodsType name="Утюги" type_name="GoodsType" />
+		<GoodsType name="Швейные машины" type_name="GoodsType" />
+		<GoodsType name="Бритвы и триммеры" type_name="GoodsType" />
+		<GoodsType name="Машинки для стрижки" type_name="GoodsType" />
+		<GoodsType name="Фены и приборы для укладки" type_name="GoodsType" />
+		<GoodsType name="Эпиляторы" type_name="GoodsType" />
+		<GoodsType name="Вытяжки" type_name="GoodsType" />
+		<GoodsType name="Мелкая кухонная техника" type_name="GoodsType" />
+		<GoodsType name="Микроволновые печи" type_name="GoodsType" />
+		<GoodsType name="Плиты" type_name="GoodsType" />
+		<GoodsType name="Посудомоечные машины" type_name="GoodsType" />
+		<GoodsType name="Холодильники и морозильные камеры" type_name="GoodsType" />
+		<GoodsType name="Вентиляторы" type_name="GoodsType" />
+		<GoodsType name="Кондиционеры" type_name="GoodsType" />
+		<GoodsType name="Обогреватели" type_name="GoodsType" />
+		<GoodsType name="Очистители воздуха" type_name="GoodsType" />
+		<GoodsType name="Термометры и метеостанции" type_name="GoodsType" />
+		<GoodsType name="Другое" type_name="GoodsType" />
+	</Category>
+	<Category name="Посуда и товары для кухни" avito_standart="dom">
+		<GoodsType name="Посуда" type_name="GoodsType" />
+		<GoodsType name="Товары для кухни" type_name="GoodsType" />
+	</Category>
+	<Category name="Растения" avito_standart="dom">
+	</Category>
+	<Category name="Продукты питания" avito_standart="dom">
+	</Category>
+	<Category name="Телефоны" avito_standart="tehnika">
+		<GoodsType name="Acer" type_name="GoodsType" />
+		<GoodsType name="Alcatel" type_name="GoodsType" />
+		<GoodsType name="ASUS" type_name="GoodsType" />
+		<GoodsType name="BlackBerry" type_name="GoodsType" />
+		<GoodsType name="BQ" type_name="GoodsType" />
+		<GoodsType name="DEXP" type_name="GoodsType" />
+		<GoodsType name="Explay" type_name="GoodsType" />
+		<GoodsType name="Fly" type_name="GoodsType" />
+		<GoodsType name="Highscreen" type_name="GoodsType" />
+		<GoodsType name="HTC" type_name="GoodsType" />
+		<GoodsType name="Huawei" type_name="GoodsType" />
+		<GoodsType name="iPhone" type_name="GoodsType" />
+		<GoodsType name="Lenovo" type_name="GoodsType" />
+		<GoodsType name="LG" type_name="GoodsType" />
+		<GoodsType name="Meizu" type_name="GoodsType" />
+		<GoodsType name="Micromax" type_name="GoodsType" />
+		<GoodsType name="Microsoft" type_name="GoodsType" />
+		<GoodsType name="Motorola" type_name="GoodsType" />
+		<GoodsType name="MTS" type_name="GoodsType" />
+		<GoodsType name="Nokia" type_name="GoodsType" />
+		<GoodsType name="Panasonic" type_name="GoodsType" />
+		<GoodsType name="Philips" type_name="GoodsType" />
+		<GoodsType name="Prestigio" type_name="GoodsType" />
+		<GoodsType name="Samsung" type_name="GoodsType" />
+		<GoodsType name="Siemens" type_name="GoodsType" />
+		<GoodsType name="SkyLink" type_name="GoodsType" />
+		<GoodsType name="Sony" type_name="GoodsType" />
+		<GoodsType name="teXet" type_name="GoodsType" />
+		<GoodsType name="Vertu" type_name="GoodsType" />
+		<GoodsType name="Xiaomi" type_name="GoodsType" />
+		<GoodsType name="ZTE" type_name="GoodsType" />
+		<GoodsType name="Другие марки" type_name="GoodsType" />
+		<GoodsType name="Рации" type_name="GoodsType" />
+		<GoodsType name="Стационарные телефоны" type_name="GoodsType" />
+		<GoodsType name="Аксессуары" type_name="GoodsType" />
+		<GoodsType name="Аккумуляторы" type_name="GoodsType" />
+		<GoodsType name="Гарнитуры и наушники" type_name="GoodsType" />
+		<GoodsType name="Зарядные устройства" type_name="GoodsType" />
+		<GoodsType name="Кабели и адаптеры" type_name="GoodsType" />
+		<GoodsType name="Модемы и роутеры" type_name="GoodsType" />
+		<GoodsType name="Чехлы и плёнки" type_name="GoodsType" />
+		<GoodsType name="Запчасти" type_name="GoodsType" />
+	</Category>
+	<Category name="Аудио и видео" avito_standart="tehnika">
+		<GoodsType name="MP3-плееры" type_name="GoodsType" />
+		<GoodsType name="Акустика, колонки, сабвуферы" type_name="GoodsType" />
+		<GoodsType name="Видео, DVD и Blu-ray плееры" type_name="GoodsType" />
+		<GoodsType name="Видеокамеры" type_name="GoodsType" />
+		<GoodsType name="Кабели и адаптеры" type_name="GoodsType" />
+		<GoodsType name="Микрофоны" type_name="GoodsType" />
+		<GoodsType name="Музыка и фильмы" type_name="GoodsType" />
+		<GoodsType name="Музыкальные центры, магнитолы" type_name="GoodsType" />
+		<GoodsType name="Наушники" type_name="GoodsType" />
+		<GoodsType name="Телевизоры и проекторы" type_name="GoodsType">
+			<GoodsSubType name="Телевизоры" type_name="GoodsSubType" />
+			<GoodsSubType name="Проекторы" type_name="GoodsSubType" />
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Усилители и ресиверы" type_name="GoodsType" />
+		<GoodsType name="Аксессуары" type_name="GoodsType" />
+	</Category>
+	<Category name="Товары для компьютера" avito_standart="tehnika">
+		<GoodsType name="Акустика" type_name="GoodsType">
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Веб-камеры" type_name="GoodsType">
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Джойстики и рули" type_name="GoodsType">
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Клавиатуры и мыши" type_name="GoodsType">
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Комплектующие" type_name="GoodsType">
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="CD, DVD и Blu-ray приводы" type_name="GoodsType">
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Блоки питания" type_name="GoodsType">
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Видеокарты" type_name="GoodsType">
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Жёсткие диски" type_name="GoodsType">
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Звуковые карты" type_name="GoodsType">
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Контроллеры" type_name="GoodsType">
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Корпусы" type_name="GoodsType">
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Материнские платы" type_name="GoodsType">
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Оперативная память" type_name="GoodsType">
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Процессоры" type_name="GoodsType">
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Системы охлаждения" type_name="GoodsType">
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Мониторы" type_name="GoodsType">
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Переносные жёсткие диски" type_name="GoodsType">
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Сетевое оборудование" type_name="GoodsType">
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="ТВ-тюнеры" type_name="GoodsType">
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Флэшки и карты памяти" type_name="GoodsType">
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Аксессуары" type_name="GoodsType">
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+	</Category>
+	<Category name="Настольные компьютеры" avito_standart="tehnika">
+	</Category>
+	<Category name="Фототехника" avito_standart="tehnika">
+		<GoodsType name="Компактные фотоаппараты" type_name="GoodsType" />
+		<GoodsType name="Зеркальные фотоаппараты" type_name="GoodsType" />
+		<GoodsType name="Плёночные фотоаппараты" type_name="GoodsType" />
+		<GoodsType name="Бинокли и телескопы" type_name="GoodsType" />
+		<GoodsType name="Объективы" type_name="GoodsType" />
+		<GoodsType name="Оборудование и аксессуары" type_name="GoodsType" />
+	</Category>
+	<Category name="Игры, приставки и программы" avito_standart="tehnika">
+		<GoodsType name="Игровые приставки" type_name="GoodsType" />
+		<GoodsType name="Игры для приставок" type_name="GoodsType" />
+		<GoodsType name="Компьютерные игры" type_name="GoodsType" />
+		<GoodsType name="Программы" type_name="GoodsType" />
+	</Category>
+	<Category name="Оргтехника и расходники" avito_standart="tehnika">
+		<GoodsType name="МФУ, копиры и сканеры" type_name="GoodsType" />
+		<GoodsType name="Принтеры" type_name="GoodsType" />
+		<GoodsType name="Телефония" type_name="GoodsType" />
+		<GoodsType name="ИБП, сетевые фильтры" type_name="GoodsType" />
+		<GoodsType name="Уничтожители бумаг" type_name="GoodsType" />
+		<GoodsType name="Расходные материалы" type_name="GoodsType" />
+		<GoodsType name="Блоки питания и батареи" type_name="GoodsType" />
+		<GoodsType name="Болванки" type_name="GoodsType" />
+		<GoodsType name="Бумага" type_name="GoodsType" />
+		<GoodsType name="Кабели и адаптеры" type_name="GoodsType" />
+		<GoodsType name="Картриджи" type_name="GoodsType" />
+		<GoodsType name="Канцелярия" type_name="GoodsType" />
+	</Category>
+	<Category name="Планшеты и электронные книги" avito_standart="tehnika">
+		<GoodsType name="Планшеты" type_name="GoodsType" />
+		<GoodsType name="Электронные книги" type_name="GoodsType" />
+		<GoodsType name="Аксессуары" type_name="GoodsType" />
+	</Category>
+	<Category name="Ноутбуки" avito_standart="tehnika">
+		<GoodsType name="Acer" type_name="GoodsType" />
+		<GoodsType name="Apple" type_name="GoodsType" />
+		<GoodsType name="ASUS" type_name="GoodsType" />
+		<GoodsType name="Compaq" type_name="GoodsType" />
+		<GoodsType name="Dell" type_name="GoodsType" />
+		<GoodsType name="Fujitsu" type_name="GoodsType" />
+		<GoodsType name="HP" type_name="GoodsType" />
+		<GoodsType name="Huawei" type_name="GoodsType" />
+		<GoodsType name="Lenovo" type_name="GoodsType" />
+		<GoodsType name="MSI" type_name="GoodsType" />
+		<GoodsType name="Packard Bell" type_name="GoodsType" />
+		<GoodsType name="Microsoft" type_name="GoodsType" />
+		<GoodsType name="Samsung" type_name="GoodsType" />
+		<GoodsType name="Sony" type_name="GoodsType" />
+		<GoodsType name="Toshiba" type_name="GoodsType" />
+		<GoodsType name="Xiaomi" type_name="GoodsType" />
+		<GoodsType name="Другой" type_name="GoodsType" />
+	</Category>
+	<Category name="Готовый бизнес" avito_standart="business">
+		<GoodsType name="Интернет-магазин" type_name="GoodsType" />
+		<GoodsType name="Общественное питание" type_name="GoodsType" />
+		<GoodsType name="Производство" type_name="GoodsType" />
+		<GoodsType name="Развлечения" type_name="GoodsType" />
+		<GoodsType name="Сельское хозяйство" type_name="GoodsType" />
+		<GoodsType name="Строительство" type_name="GoodsType" />
+		<GoodsType name="Сфера услуг" type_name="GoodsType" />
+		<GoodsType name="Торговля" type_name="GoodsType" />
+		<GoodsType name="Другое" type_name="GoodsType" />
+	</Category>
+	<Category name="Оборудование для бизнеса" avito_standart="business">
+		<GoodsType name="Логистика и склад" type_name="GoodsType">
+			<GoodsSubType name="Контейнеры" type_name="GoodsSubType">
+				<AnotherType name="Морские" type_name="СontainerType" />
+				<AnotherType name="Рефрижераторные" type_name="СontainerType" />
+				<AnotherType name="Специальные" type_name="СontainerType" />
+				<AnotherType name="Танк-контейнеры" type_name="СontainerType" />
+			</GoodsSubType>
+			<GoodsSubType name="Грузоподъёмное" type_name="GoodsSubType">
+				<AnotherType name="Тележки и рохли" type_name="LiftingType" />
+				<AnotherType name="Штабелеры" type_name="LiftingType" />
+				<AnotherType name="Подъемные столы и платформы" type_name="LiftingType" />
+				<AnotherType name="Подвесные механизмы" type_name="LiftingType" />
+				<AnotherType name="Погрузчики" type_name="LiftingType" />
+				<AnotherType name="Такелаж" type_name="LiftingType" />
+				<AnotherType name="Краны и балки" type_name="LiftingType" />
+				<AnotherType name="Захваты" type_name="LiftingType" />
+			</GoodsSubType>
+			<GoodsSubType name="Склады и хранение" type_name="GoodsSubType">
+				<AnotherType name="Резервуары и ёмкости" type_name="StorageType" />
+				<AnotherType name="Стеллажи" type_name="StorageType" />
+				<AnotherType name="Контейнеры для хранения" type_name="StorageType" />
+				<AnotherType name="Ангары" type_name="StorageType" />
+				<AnotherType name="Ящики и коробки" type_name="StorageType" />
+				<AnotherType name="Мезонин" type_name="StorageType" />
+			</GoodsSubType>
+		</GoodsType>
+		<GoodsType name="Для автобизнеса" type_name="GoodsType">
+			<GoodsSubType name="Моечное" type_name="GoodsSubType">
+				<AnotherType name="Мойки самообслуживания" type_name="WashType" />
+				<AnotherType name="Автоматические мойки" type_name="WashType" />
+				<AnotherType name="Мойки деталей" type_name="WashType" />
+				<AnotherType name="Мойки высокого давления" type_name="WashType" />
+				<AnotherType name="Мойки колёс" type_name="WashType" />
+				<AnotherType name="Комплектующие и расходники" type_name="WashType" />
+			</GoodsSubType>
+			<GoodsSubType name="Шиномонтаж" type_name="GoodsSubType">
+				<AnotherType name="Шиномонтажные станки" type_name="AutoLiftType" />
+				<AnotherType name="Балансировочные станки" type_name="AutoLiftType" />
+				<AnotherType name="Для правки дисков" type_name="AutoLiftType" />
+				<AnotherType name="Комплектующие и расходники" type_name="AutoLiftType" />
+			</GoodsSubType>
+			<GoodsSubType name="Сход-развал" type_name="GoodsSubType" />
+			<GoodsSubType name="Малярно-кузовное" type_name="GoodsSubType">
+				<AnotherType name="Пескоструйные аппараты" type_name="AutoPaintType" />
+				<AnotherType name="Стапель" type_name="AutoPaintType" />
+				<AnotherType name="Покрасочные и сушильные камеры" type_name="AutoPaintType" />
+			</GoodsSubType>
+			<GoodsSubType name="Заправочное" type_name="GoodsSubType">
+				<AnotherType name="Бензиновые колонки" type_name="StationType" />
+				<AnotherType name="Газовые колонки" type_name="StationType" />
+				<AnotherType name="Заправка кондиционера" type_name="StationType" />
+				<AnotherType name="Заправка масел и жидкостей" type_name="StationType" />
+			</GoodsSubType>
+			<GoodsSubType name="Диагностика и ремонт" type_name="GoodsSubType">
+				<AnotherType name="Стенды" type_name="AutoDiagType" />
+				<AnotherType name="Автомобильные весы" type_name="AutoDiagType" />
+			</GoodsSubType>
+			<GoodsSubType name="Подъёмное" type_name="GoodsSubType">
+				<AnotherType name="Подъёмники" type_name="TiresType" />
+				<AnotherType name="Домкраты" type_name="TiresType" />
+				<AnotherType name="Стойки" type_name="TiresType" />
+			</GoodsSubType>
+		</GoodsType>
+		<GoodsType name="Промышленное" type_name="GoodsType">
+			<GoodsSubType name="Приводное" type_name="GoodsSubType">
+				<AnotherType name="Гидростанция" type_name="PrivodType" />
+				<AnotherType name="Двигатель" type_name="PrivodType" />
+				<AnotherType name="Привод" type_name="PrivodType" />
+				<AnotherType name="Редуктор" type_name="PrivodType" />
+				<AnotherType name="Запчасти и комплектующие" type_name="PrivodType" />
+			</GoodsSubType>
+			<GoodsSubType name="Электрическое" type_name="GoodsSubType">
+				<AnotherType name="Генераторы и электростанции" type_name="ElectricType" />
+				<AnotherType name="Преобразователи" type_name="ElectricType" />
+				<AnotherType name="Релейная защита и автоматика" type_name="ElectricType" />
+				<AnotherType name="Трансформаторы" type_name="ElectricType" />
+				<AnotherType name="Запчасти и комплектующие" type_name="ElectricType" />
+			</GoodsSubType>
+			<GoodsSubType name="Станки" type_name="GoodsSubType" />
+			<GoodsSubType name="Насосы и компрессоры" type_name="GoodsSubType">
+				<AnotherType name="Компрессоры" type_name="NasosType" />
+				<AnotherType name="Насосы" type_name="NasosType" />
+				<AnotherType name="Осушители" type_name="NasosType" />
+				<AnotherType name="Рукава высокого давления" type_name="NasosType" />
+				<AnotherType name="Запчасти и комплектующие" type_name="NasosType" />
+			</GoodsSubType>
+			<GoodsSubType name="Контрольно-измерительное" type_name="GoodsSubType" />
+			<GoodsSubType name="Конвейеры и транспортеры" type_name="GoodsSubType" />
+			<GoodsSubType name="Паяльное и сварочное" type_name="GoodsSubType">
+				<AnotherType name="Сварочные аппараты" type_name="SvarkaType" />
+				<AnotherType name="Сварочные столы" type_name="SvarkaType" />
+				<AnotherType name="Паяльники и паяльные станции" type_name="SvarkaType" />
+				<AnotherType name="Запчасти и комплектующие" type_name="SvarkaType" />
+			</GoodsSubType>
+			<GoodsSubType name="Холодильное" type_name="GoodsSubType" />
+			<GoodsSubType name="Климатическое" type_name="GoodsSubType">
+				<AnotherType name="Отопление" type_name="KlimatType" />
+				<AnotherType name="Вентиляция" type_name="KlimatType" />
+				<AnotherType name="Кондиционирование" type_name="KlimatType" />
+				<AnotherType name="Сушильные камеры" type_name="KlimatType" />
+			</GoodsSubType>
+			<GoodsSubType name="Фасовочное и упаковочное" type_name="GoodsSubType">
+				<AnotherType name="Дозаторы" type_name="PackType" />
+				<AnotherType name="Заклейщик" type_name="PackType" />
+				<AnotherType name="Запайщик" type_name="PackType" />
+				<AnotherType name="Маркиратор" type_name="PackType" />
+				<AnotherType name="Тубонаполнительные машины" type_name="PackType" />
+				<AnotherType name="Укупорщики" type_name="PackType" />
+				<AnotherType name="Упаковочный аппарат" type_name="PackType" />
+				<AnotherType name="Фасовочно-упаковочный аппарат" type_name="PackType" />
+				<AnotherType name="Фасовочный аппарат" type_name="PackType" />
+				<AnotherType name="Этикетировщик" type_name="PackType" />
+				<AnotherType name="Запчасти и расходные материалы" type_name="PackType" />
+			</GoodsSubType>
+			<GoodsSubType name="Специализированное" type_name="GoodsSubType">
+				<AnotherType name="Водоснабжение и водоотведение" type_name="SpecType" />
+				<AnotherType name="Добывающее" type_name="SpecType" />
+				<AnotherType name="Клининговое" type_name="SpecType" />
+				<AnotherType name="Перерабатывающее" type_name="SpecType" />
+				<AnotherType name="Полиграфия" type_name="SpecType" />
+				<AnotherType name="Полимерное и покрасочное" type_name="SpecType" />
+				<AnotherType name="Сельскохозяйственное" type_name="SpecType" />
+				<AnotherType name="Смесители" type_name="SpecType" />
+				<AnotherType name="Строительное" type_name="SpecType" />
+				<AnotherType name="Текстильное" type_name="SpecType" />
+			</GoodsSubType>
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Для салона красоты" type_name="GoodsType">
+			<GoodsSubType name="Солярии" type_name="GoodsSubType" />
+			<GoodsSubType name="Эпиляция" type_name="GoodsSubType" />
+			<GoodsSubType name="Косметологическое" type_name="GoodsSubType" />
+			<GoodsSubType name="Тату и татуаж" type_name="GoodsSubType" />
+			<GoodsSubType name="Массаж и коррекция фигуры" type_name="GoodsSubType" />
+			<GoodsSubType name="Маникюр и педикюр" type_name="GoodsSubType" />
+			<GoodsSubType name="Парикмахерское" type_name="GoodsSubType" />
+			<GoodsSubType name="Солярии" type_name="GoodsSubType" />
+			<GoodsSubType name="Инвентарь" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Пищевое" type_name="GoodsType">
+			<GoodsSubType name="Тепловое" type_name="GoodsSubType" />
+			<GoodsSubType name="Для производства напитков" type_name="GoodsSubType" />
+			<GoodsSubType name="Холодильное" type_name="GoodsSubType" />
+			<GoodsSubType name="Нейтральное" type_name="GoodsSubType" />
+			<GoodsSubType name="Хлебопекарное" type_name="GoodsSubType" />
+			<GoodsSubType name="Электромеханическое" type_name="GoodsSubType" />
+			<GoodsSubType name="Кухонный инвентарь" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Другое" type_name="GoodsType" />
+		<GoodsType name="Майнинг" type_name="GoodsType" />
+		<GoodsType name="Медицинское" type_name="GoodsType">
+			<GoodsSubType name="Стоматология" type_name="GoodsSubType" />
+			<GoodsSubType name="Мебель" type_name="GoodsSubType" />
+			<GoodsSubType name="УЗИ" type_name="GoodsSubType" />
+			<GoodsSubType name="Хирургия" type_name="GoodsSubType" />
+			<GoodsSubType name="Анестезиология и реанимация" type_name="GoodsSubType" />
+			<GoodsSubType name="Офтальмология" type_name="GoodsSubType" />
+			<GoodsSubType name="Стерилизация" type_name="GoodsSubType" />
+			<GoodsSubType name="Оториноларингология" type_name="GoodsSubType" />
+			<GoodsSubType name="Гинекология" type_name="GoodsSubType" />
+			<GoodsSubType name="Физиотерапия и реабилитация" type_name="GoodsSubType" />
+			<GoodsSubType name="Эндоскопия" type_name="GoodsSubType" />
+			<GoodsSubType name="Функциональная диагностика" type_name="GoodsSubType" />
+			<GoodsSubType name="Фармацевтические холодильники" type_name="GoodsSubType" />
+			<GoodsSubType name="Расходные материалы" type_name="GoodsSubType" />
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Лабораторное" type_name="GoodsType">
+			<GoodsSubType name="Микроскопы" type_name="GoodsSubType" />
+			<GoodsSubType name="Муфельные печи" type_name="GoodsSubType" />
+			<GoodsSubType name="Стерилизаторы" type_name="GoodsSubType" />
+			<GoodsSubType name="Центрифуги" type_name="GoodsSubType" />
+			<GoodsSubType name="Весы" type_name="GoodsSubType" />
+			<GoodsSubType name="Измерительное" type_name="GoodsSubType" />
+			<GoodsSubType name="Аналитическое" type_name="GoodsSubType" />
+			<GoodsSubType name="Общелабораторное" type_name="GoodsSubType" />
+			<GoodsSubType name="Мебель" type_name="GoodsSubType" />
+			<GoodsSubType name="Расходные материалы" type_name="GoodsSubType" />
+			<GoodsSubType name="Запчасти" type_name="GoodsSubType" />
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Телекоммуникационное" type_name="GoodsType" />
+		<GoodsType name="Торговое" type_name="GoodsType">
+			<GoodsSubType name="Мебель" type_name="GoodsSubType" />
+			<GoodsSubType name="Расчетно-кассовое" type_name="GoodsSubType" />
+			<GoodsSubType name="Рекламное" type_name="GoodsSubType" />
+			<GoodsSubType name="Павильоны и фудтраки" type_name="GoodsSubType" />
+			<GoodsSubType name="Вендинговые и торговые аппараты" type_name="GoodsSubType" />
+			<GoodsSubType name="Развлекательное" type_name="GoodsSubType" />
+			<GoodsSubType name="Торговый инвентарь" type_name="GoodsSubType" />
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+	</Category>
+	<Category name="Одежда, обувь, аксессуары" avito_standart="lichnye_veshi">
+		<GoodsType name="Сумки, рюкзаки и чемоданы" type_name="GoodsType">
+			<GoodsSubType name="Сумки" type_name="Apparel">
+				<AnotherType name="С ручками" type_name="ApparelType" />
+				<AnotherType name="Через плечо" type_name="ApparelType" />
+				<AnotherType name="Клатч" type_name="ApparelType" />
+				<AnotherType name="Поясная" type_name="ApparelType" />
+				<AnotherType name="Спортивная" type_name="ApparelType" />
+				<AnotherType name="Кросс–боди" type_name="ApparelType" />
+				<AnotherType name="Шопер" type_name="ApparelType" />
+				<AnotherType name="Пляжная" type_name="ApparelType" />
+				<AnotherType name="Аксессуар для сумки" type_name="ApparelType" />
+			</GoodsSubType>
+			<GoodsSubType name="Рюкзаки" type_name="Apparel" />
+			<GoodsSubType name="Чемоданы и дорожные сумки" type_name="Apparel" />
+			<GoodsSubType name="Портфели и борсетки" type_name="Apparel" />
+			<GoodsSubType name="Кошельки, визитницы, ключницы" type_name="Apparel" />
+			<GoodsSubType name="Косметички и бьюти–кейсы" type_name="Apparel" />
+		</GoodsType>
+		<GoodsType name="Мужская обувь" type_name="GoodsType">
+			<GoodsSubType name="Кроссовки" type_name="ApparelType" />
+			<GoodsSubType name="Ботинки и полуботинки" type_name="ApparelType" />
+			<GoodsSubType name="Туфли" type_name="ApparelType" />
+			<GoodsSubType name="Кеды" type_name="ApparelType" />
+			<GoodsSubType name="Сапоги и полусапоги" type_name="ApparelType" />
+			<GoodsSubType name="Мокасины и лоферы" type_name="ApparelType" />
+			<GoodsSubType name="Спортивная обувь" type_name="ApparelType" />
+			<GoodsSubType name="Угги, валенки, дутики" type_name="ApparelType" />
+			<GoodsSubType name="Рабочая обувь" type_name="ApparelType" />
+			<GoodsSubType name="Резиновая обувь" type_name="ApparelType" />
+			<GoodsSubType name="Сандалии" type_name="ApparelType" />
+			<GoodsSubType name="Шлёпанцы и сланцы" type_name="ApparelType" />
+			<GoodsSubType name="Домашняя обувь" type_name="ApparelType" />
+			<GoodsSubType name="Слипоны и эспадрильи" type_name="ApparelType" />
+			<GoodsSubType name="Уход за обувью" type_name="ApparelType" />
+		</GoodsType>
+		<GoodsType name="Женская обувь" type_name="GoodsType">
+			<GoodsSubType name="Туфли" type_name="ApparelType" />
+			<GoodsSubType name="Сапоги" type_name="ApparelType" />
+			<GoodsSubType name="Босоножки" type_name="ApparelType" />
+			<GoodsSubType name="Ботильоны" type_name="ApparelType" />
+			<GoodsSubType name="Ботинки и полуботинки" type_name="ApparelType" />
+			<GoodsSubType name="Кроссовки и кеды" type_name="ApparelType" />
+			<GoodsSubType name="Полусапоги" type_name="ApparelType" />
+			<GoodsSubType name="Балетки" type_name="ApparelType" />
+			<GoodsSubType name="Угги, валенки, дутики" type_name="ApparelType" />
+			<GoodsSubType name="Сабо и мюли" type_name="ApparelType" />
+			<GoodsSubType name="Резиновая обувь" type_name="ApparelType" />
+			<GoodsSubType name="Мокасины и лоферы" type_name="ApparelType" />
+			<GoodsSubType name="Сандалии" type_name="ApparelType" />
+			<GoodsSubType name="Шлёпанцы и сланцы" type_name="ApparelType" />
+			<GoodsSubType name="Домашняя обувь" type_name="ApparelType" />
+			<GoodsSubType name="Спортивная обувь" type_name="ApparelType" />
+			<GoodsSubType name="Слипоны и эспадрильи" type_name="ApparelType" />
+			<GoodsSubType name="Уход за обувью" type_name="ApparelType" />
+		</GoodsType>
+		<GoodsType name="Аксессуары" type_name="GoodsType">
+			<GoodsSubType name="Головные уборы" type_name="Apparel" />
+			<GoodsSubType name="Платки и шарфы" type_name="Apparel" />
+			<GoodsSubType name="Очки" type_name="Apparel" />
+			<GoodsSubType name="Ремни, пояса, подтяжки" type_name="Apparel" />
+			<GoodsSubType name="Перчатки и варежки" type_name="Apparel" />
+			<GoodsSubType name="Украшения" type_name="Apparel" />
+			<GoodsSubType name="Зонты" type_name="Apparel" />
+			<GoodsSubType name="Обложки для документов" type_name="Apparel" />
+			<GoodsSubType name="Аксессуары для волос" type_name="Apparel" />
+			<GoodsSubType name="Галстуки и бабочки" type_name="Apparel" />
+			<GoodsSubType name="Носки, чулки, колготки" type_name="Apparel" />
+			<GoodsSubType name="Другое" type_name="Apparel" />
+		</GoodsType>
+		<GoodsType name="Мужская одежда" type_name="GoodsType">
+			<GoodsSubType name="Джинсы" type_name="Apparel" />
+			<GoodsSubType name="Брюки" type_name="Apparel" />
+			<GoodsSubType name="Верхняя одежда" type_name="Apparel">
+				<AnotherType name="Зимние куртки и пуховики" type_name="ApparelType" />
+				<AnotherType name="Лёгкие куртки и ветровки" type_name="ApparelType" />
+				<AnotherType name="Демисезонные куртки" type_name="ApparelType" />
+				<AnotherType name="Пальто" type_name="ApparelType" />
+				<AnotherType name="Дублёнки и шубы" type_name="ApparelType" />
+				<AnotherType name="Жилеты" type_name="ApparelType" />
+				<AnotherType name="Парки" type_name="ApparelType" />
+				<AnotherType name="Джинсовые куртки" type_name="ApparelType" />
+				<AnotherType name="Кожаные куртки" type_name="ApparelType" />
+				<AnotherType name="Бомберы" type_name="ApparelType" />
+				<AnotherType name="Плащи и тренчи" type_name="ApparelType" />
+				<AnotherType name="Косухи" type_name="ApparelType" />
+				<AnotherType name="Анораки" type_name="ApparelType" />
+				<AnotherType name="Другое" type_name="ApparelType" />
+			</GoodsSubType>
+			<GoodsSubType name="Пиджаки и костюмы" type_name="Apparel" />
+			<GoodsSubType name="Рубашки" type_name="Apparel" />
+			<GoodsSubType name="Спортивные костюмы" type_name="Apparel" />
+			<GoodsSubType name="Шорты" type_name="Apparel" />
+			<GoodsSubType name="Нижнее бельё" type_name="Apparel" />
+			<GoodsSubType name="Кофты и футболки" type_name="Apparel" />
+			<GoodsSubType name="Другое" type_name="Apparel" />
+		</GoodsType>
+		<GoodsType name="Женская одежда" type_name="GoodsType">
+			<GoodsSubType name="Брюки" type_name="Apparel" />
+			<GoodsSubType name="Верхняя одежда" type_name="Apparel">
+				<AnotherType name="Шубы" type_name="ApparelType" />
+				<AnotherType name="Пальто" type_name="ApparelType" />
+				<AnotherType name="Зимние куртки и пуховики" type_name="ApparelType" />
+				<AnotherType name="Демисезонные куртки" type_name="ApparelType" />
+				<AnotherType name="Плащи и тренчи" type_name="ApparelType" />
+				<AnotherType name="Парки" type_name="ApparelType" />
+				<AnotherType name="Жилеты" type_name="ApparelType" />
+				<AnotherType name="Джинсовые куртки" type_name="ApparelType" />
+				<AnotherType name="Лёгкие куртки и ветровки" type_name="ApparelType" />
+				<AnotherType name="Дублёнки" type_name="ApparelType" />
+				<AnotherType name="Кожаные куртки" type_name="ApparelType" />
+				<AnotherType name="Косухи" type_name="ApparelType" />
+				<AnotherType name="Бомберы" type_name="ApparelType" />
+				<AnotherType name="Пончо" type_name="ApparelType" />
+				<AnotherType name="Анораки" type_name="ApparelType" />
+				<AnotherType name="Другое" type_name="ApparelType" />
+			</GoodsSubType>
+			<GoodsSubType name="Джинсы" type_name="Apparel" />
+			<GoodsSubType name="Купальники" type_name="Apparel" />
+			<GoodsSubType name="Нижнее бельё" type_name="Apparel" />
+			<GoodsSubType name="Пиджаки и костюмы" type_name="Apparel" />
+			<GoodsSubType name="Платья" type_name="Apparel" />
+			<GoodsSubType name="Рубашки и блузки" type_name="Apparel" />
+			<GoodsSubType name="Свадебные платья" type_name="Apparel" />
+			<GoodsSubType name="Топы и футболки" type_name="Apparel" />
+			<GoodsSubType name="Джемперы, свитеры, кардиганы" type_name="Apparel" />
+			<GoodsSubType name="Толстовки и свитшоты" type_name="Apparel" />
+			<GoodsSubType name="Юбки" type_name="Apparel" />
+			<GoodsSubType name="Другое" type_name="Apparel" />
+		</GoodsType>
+	</Category>
+	<Category name="Детская одежда и обувь" avito_standart="lichnye_veshi">
+		<GoodsType name="Для девочек" type_name="GoodsType">
+			<GoodsSubType name="Верхняя одежда" type_name="Apparel" />
+			<GoodsSubType name="Обувь" type_name="Apparel" />
+			<GoodsSubType name="Платья и юбки" type_name="Apparel" />
+			<GoodsSubType name="Брюки" type_name="Apparel" />
+			<GoodsSubType name="Комбинезоны" type_name="Apparel" />
+			<GoodsSubType name="Свитеры и толстовки" type_name="Apparel" />
+			<GoodsSubType name="Футболки и топы" type_name="Apparel" />
+			<GoodsSubType name="Блузки и рубашки" type_name="Apparel" />
+			<GoodsSubType name="Пиджаки и костюмы" type_name="Apparel" />
+			<GoodsSubType name="Бельё и домашняя одежда" type_name="Apparel" />
+			<GoodsSubType name="Пляжная одежда" type_name="Apparel" />
+			<GoodsSubType name="Аксессуары" type_name="Apparel" />
+			<GoodsSubType name="Другое" type_name="Apparel" />
+		</GoodsType>
+		<GoodsType name="Для мальчиков" type_name="GoodsType">
+			<GoodsSubType name="Верхняя одежда" type_name="Apparel" />
+			<GoodsSubType name="Обувь" type_name="Apparel" />
+			<GoodsSubType name="Брюки" type_name="Apparel" />
+			<GoodsSubType name="Комбинезоны" type_name="Apparel" />
+			<GoodsSubType name="Свитеры и толстовки" type_name="Apparel" />
+			<GoodsSubType name="Футболки и майки" type_name="Apparel" />
+			<GoodsSubType name="Рубашки" type_name="Apparel" />
+			<GoodsSubType name="Пиджаки и костюмы" type_name="Apparel" />
+			<GoodsSubType name="Бельё и домашняя одежда" type_name="Apparel" />
+			<GoodsSubType name="Пляжная одежда" type_name="Apparel" />
+			<GoodsSubType name="Аксессуары" type_name="Apparel" />
+			<GoodsSubType name="Другое" type_name="Apparel" />
+		</GoodsType>
+	</Category>
+	<Category name="Товары для детей и игрушки" avito_standart="lichnye_veshi">
+		<GoodsType name="Автомобильные кресла" type_name="GoodsType">
+			<GoodsSubType name="Автолюльки" type_name="CarSeats" />
+			<GoodsSubType name="Автокресла" type_name="CarSeats" />
+			<GoodsSubType name="Бустеры" type_name="CarSeats" />
+			<GoodsSubType name="Аксессуары" type_name="CarSeats" />
+		</GoodsType>
+		<GoodsType name="Велосипеды и самокаты" type_name="GoodsType">
+			<GoodsSubType name="Веломобили и беговелы" type_name="BicyclesAndScooters" />
+			<GoodsSubType name="Детские самокаты" type_name="BicyclesAndScooters" />
+			<GoodsSubType name="Трюковые самокаты" type_name="BicyclesAndScooters" />
+			<GoodsSubType name="Электросамокаты" type_name="BicyclesAndScooters" />
+			<GoodsSubType name="Запчасти и аксессуары" type_name="BicyclesAndScooters" />
+		</GoodsType>
+		<GoodsType name="Детская мебель" type_name="GoodsType">
+			<GoodsSubType name="Для детей" type_name="GoodsSubType">
+				<AnotherType name="Кресла" type_name="KidsFurnitureType" />
+				<AnotherType name="Компьютерные кресла" type_name="KidsFurnitureType" />
+				<AnotherType name="Кровати" type_name="KidsFurnitureType" />
+				<AnotherType name="Стулья" type_name="KidsFurnitureType" />
+				<AnotherType name="Матрасы" type_name="KidsFurnitureType" />
+				<AnotherType name="Шкафы" type_name="KidsFurnitureType" />
+				<AnotherType name="Спортивные и игровые комплексы" type_name="KidsFurnitureType" />
+				<AnotherType name="Аксессуары для мебели" type_name="KidsFurnitureType" />
+				<AnotherType name="Комоды" type_name="KidsFurnitureType" />
+				<AnotherType name="Стеллажи" type_name="KidsFurnitureType" />
+				<AnotherType name="Комплекты мебели" type_name="KidsFurnitureType" />
+				<AnotherType name="Столы" type_name="KidsFurnitureType" />
+				<AnotherType name="Диваны" type_name="KidsFurnitureType" />
+			</GoodsSubType>
+			<GoodsSubType name="Другое" type_name="GoodsSubType">
+				<AnotherType name="Кроватки и колыбели" type_name="NurseryFurnitureType" />
+				<AnotherType name="Пеленальные комоды и столики" type_name="ChangingTableType" />
+				<AnotherType name="Манежи и коврики" type_name="NurseryFurnitureType" />
+				<AnotherType name="Стульчики для кормления" type_name="NurseryFurnitureType" />
+				<AnotherType name="Качели и шезлонги" type_name="NurseryFurnitureType" />
+			</GoodsSubType>
+		</GoodsType>
+		<GoodsType name="Детские коляски" type_name="GoodsType">
+			<GoodsSubType name="Прогулочные коляски" type_name="Type" />
+			<GoodsSubType name="Коляски-люльки" type_name="Type" />
+			<GoodsSubType name="Коляски-трости" type_name="Type" />
+			<GoodsSubType name="Коляски-санки" type_name="Type" />
+			<GoodsSubType name="Аксессуары и комплектующие" type_name="Type" />
+		</GoodsType>
+		<GoodsType name="Игрушки" type_name="GoodsType">
+			<GoodsSubType name="Мягкие игрушки" type_name="Toys" />
+			<GoodsSubType name="Игрушечный транспорт" type_name="Toys" />
+			<GoodsSubType name="Игровые и развивающие коврики" type_name="Toys" />
+			<GoodsSubType name="Игрушки для малышей" type_name="Toys" />
+			<GoodsSubType name="Детский транспорт" type_name="Toys" />
+			<GoodsSubType name="Конструкторы" type_name="Toys" />
+			<GoodsSubType name="Фигурки и наборы" type_name="Toys" />
+			<GoodsSubType name="Куклы и аксессуары" type_name="Toys" />
+			<GoodsSubType name="Детские площадки" type_name="Toys" />
+			<GoodsSubType name="Игрушечное оружие" type_name="Toys" />
+		</GoodsType>
+		<GoodsType name="Постельные принадлежности" type_name="GoodsType" />
+		<GoodsType name="Товары для кормления" type_name="GoodsType" />
+		<GoodsType name="Товары для купания" type_name="GoodsType" />
+		<GoodsType name="Товары для школы" type_name="GoodsType" />
+	</Category>
+	<Category name="Часы и украшения" avito_standart="lichnye_veshi">
+		<GoodsType name="Бижутерия" type_name="GoodsType">
+			<GoodsSubType name="Серьги" type_name="GoodsSubType" />
+			<GoodsSubType name="Браслеты" type_name="GoodsSubType" />
+			<GoodsSubType name="Колье и бусы" type_name="GoodsSubType" />
+			<GoodsSubType name="Броши" type_name="GoodsSubType" />
+			<GoodsSubType name="Кольца и перстни" type_name="GoodsSubType" />
+			<GoodsSubType name="Кулоны и подвески" type_name="GoodsSubType" />
+			<GoodsSubType name="Комплекты" type_name="GoodsSubType" />
+			<GoodsSubType name="Цепи" type_name="GoodsSubType" />
+			<GoodsSubType name="Чокеры" type_name="GoodsSubType" />
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Часы" type_name="GoodsType">
+			<GoodsSubType name="Наручные или карманные" type_name="GoodsSubType" />
+			<GoodsSubType name="Смарт-часы или браслет" type_name="GoodsSubType" />
+			<GoodsSubType name="Для интерьера" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="Ювелирные изделия" type_name="GoodsType">
+			<GoodsSubType name="Кольца и перстнии" type_name="GoodsSubType" />
+			<GoodsSubType name="Серьги" type_name="GoodsSubType" />
+			<GoodsSubType name="Кулоны и подвески" type_name="GoodsSubType" />
+			<GoodsSubType name="Браслеты" type_name="GoodsSubType" />
+			<GoodsSubType name="Пирсинг" type_name="GoodsSubType" />
+			<GoodsSubType name="Цепи" type_name="GoodsSubType" />
+			<GoodsSubType name="Колье" type_name="GoodsSubType" />
+			<GoodsSubType name="Шармы" type_name="GoodsSubType" />
+			<GoodsSubType name="Броши" type_name="GoodsSubType" />
+			<GoodsSubType name="Комплекты" type_name="GoodsSubType" />
+			<GoodsSubType name="Религиозные изделия" type_name="GoodsSubType" />
+			<GoodsSubType name="Другое" type_name="GoodsSubType" />
+		</GoodsType>
+	</Category>
+	<Category name="Красота и здоровье" avito_standart="lichnye_veshi">
+		<GoodsType name="Косметика" type_name="GoodsType" />
+		<GoodsType name="Парфюмерия" type_name="GoodsType" />
+		<GoodsType name="Приборы и аксессуары" type_name="GoodsType" />
+		<GoodsType name="Средства гигиены" type_name="GoodsType" />
+		<GoodsType name="Средства для волос" type_name="GoodsType" />
+		<GoodsType name="Медицинские изделия" type_name="GoodsType" />
+		<GoodsType name="Биологически активные добавки" type_name="GoodsType" />
+	</Category>
+	<Category name="Собаки" avito_standart="zhivotnye">
+		<GoodsType name="Акита" type_name="Breed" />
+		<GoodsType name="Аляскинский маламут" type_name="Breed" />
+		<GoodsType name="Американский бульдог" type_name="Breed" />
+		<GoodsType name="Английский бульдог" type_name="Breed" />
+		<GoodsType name="Басенджи" type_name="Breed" />
+		<GoodsType name="Бассет" type_name="Breed" />
+		<GoodsType name="Бельгийская овчарка" type_name="Breed" />
+		<GoodsType name="Бельгийский гриффон" type_name="Breed" />
+		<GoodsType name="Бернский зенненхунд" type_name="Breed" />
+		<GoodsType name="Бивер" type_name="Breed" />
+		<GoodsType name="Бигль" type_name="Breed" />
+		<GoodsType name="Бишон фризе" type_name="Breed" />
+		<GoodsType name="Бобтейл" type_name="Breed" />
+		<GoodsType name="Боксер" type_name="Breed" />
+		<GoodsType name="Болонки" type_name="Breed" />
+		<GoodsType name="Бриар" type_name="Breed" />
+		<GoodsType name="Брюссельский гриффон" type_name="Breed" />
+		<GoodsType name="Бульмастиф" type_name="Breed" />
+		<GoodsType name="Бультерьер" type_name="Breed" />
+		<GoodsType name="Бурбуль" type_name="Breed" />
+		<GoodsType name="Вельш-корги" type_name="Breed" />
+		<GoodsType name="Вельштерьер" type_name="Breed" />
+		<GoodsType name="Вест хайленд вайт терьер" type_name="Breed" />
+		<GoodsType name="Восточноевропейская овчарка" type_name="Breed" />
+		<GoodsType name="Далматин" type_name="Breed" />
+		<GoodsType name="Джек Рассел терьер" type_name="Breed" />
+		<GoodsType name="Доберман" type_name="Breed" />
+		<GoodsType name="Дог" type_name="Breed" />
+		<GoodsType name="Ирландский терьер" type_name="Breed" />
+		<GoodsType name="Йоркширский терьер" type_name="Breed" />
+		<GoodsType name="Кавказская овчарка" type_name="Breed" />
+		<GoodsType name="Кане Корсо" type_name="Breed" />
+		<GoodsType name="Керн терьер" type_name="Breed" />
+		<GoodsType name="Китайская хохлатая" type_name="Breed" />
+		<GoodsType name="Кокер спаниель" type_name="Breed" />
+		<GoodsType name="Колли" type_name="Breed" />
+		<GoodsType name="Курцхаар" type_name="Breed" />
+		<GoodsType name="Лабрадор" type_name="Breed" />
+		<GoodsType name="Лайка" type_name="Breed" />
+		<GoodsType name="Левретка" type_name="Breed" />
+		<GoodsType name="Леонбергер" type_name="Breed" />
+		<GoodsType name="Лхаса Апсо" type_name="Breed" />
+		<GoodsType name="Мастиф" type_name="Breed" />
+		<GoodsType name="Миттельшнауцер" type_name="Breed" />
+		<GoodsType name="Мопс" type_name="Breed" />
+		<GoodsType name="Московская сторожевая" type_name="Breed" />
+		<GoodsType name="Немецкая овчарка" type_name="Breed" />
+		<GoodsType name="Норвич терьер" type_name="Breed" />
+		<GoodsType name="Ньюфаундленд" type_name="Breed" />
+		<GoodsType name="Овчарка" type_name="Breed" />
+		<GoodsType name="Папийон" type_name="Breed" />
+		<GoodsType name="Пекинес" type_name="Breed" />
+		<GoodsType name="Петербургская орхидея" type_name="Breed" />
+		<GoodsType name="Питбуль" type_name="Breed" />
+		<GoodsType name="Пойнтер" type_name="Breed" />
+		<GoodsType name="Пти брабансон" type_name="Breed" />
+		<GoodsType name="Пудель" type_name="Breed" />
+		<GoodsType name="Ретривер" type_name="Breed" />
+		<GoodsType name="Ризеншнауцер" type_name="Breed" />
+		<GoodsType name="Родезийский риджбек" type_name="Breed" />
+		<GoodsType name="Ротвейлер" type_name="Breed" />
+		<GoodsType name="Русская борзая" type_name="Breed" />
+		<GoodsType name="Самоедская лайка" type_name="Breed" />
+		<GoodsType name="Сенбернар" type_name="Breed" />
+		<GoodsType name="Сеттер" type_name="Breed" />
+		<GoodsType name="Сибирский хаски" type_name="Breed" />
+		<GoodsType name="Скотч-терьер" type_name="Breed" />
+		<GoodsType name="Спаниель" type_name="Breed" />
+		<GoodsType name="Среднеазиатская овчарка" type_name="Breed" />
+		<GoodsType name="Стаффордширский терьер" type_name="Breed" />
+		<GoodsType name="Такса" type_name="Breed" />
+		<GoodsType name="Той-пудель" type_name="Breed" />
+		<GoodsType name="Той-терьер" type_name="Breed" />
+		<GoodsType name="Фландрский бувье" type_name="Breed" />
+		<GoodsType name="Фокстерьер" type_name="Breed" />
+		<GoodsType name="Французская овчарка" type_name="Breed" />
+		<GoodsType name="Французский бульдог" type_name="Breed" />
+		<GoodsType name="Цвергпинчер" type_name="Breed" />
+		<GoodsType name="Цвергшнауцер" type_name="Breed" />
+		<GoodsType name="Чау-чау" type_name="Breed" />
+		<GoodsType name="Чихуахуа" type_name="Breed" />
+		<GoodsType name="Шарпей" type_name="Breed" />
+		<GoodsType name="Швейцарская овчарка" type_name="Breed" />
+		<GoodsType name="Шелти" type_name="Breed" />
+		<GoodsType name="Ши-тцу" type_name="Breed" />
+		<GoodsType name="Шпиц" type_name="Breed" />
+		<GoodsType name="Эрдельтерьер" type_name="Breed" />
+		<GoodsType name="Ягдтерьер" type_name="Breed" />
+		<GoodsType name="Японский хин" type_name="Breed" />
+		<GoodsType name="Другая" type_name="Breed" />
+	</Category>
+	<Category name="Кошки" avito_standart="zhivotnye">
+		<GoodsType name="Абиссинская" type_name="Breed" />
+		<GoodsType name="Американский кёрл" type_name="Breed" />
+		<GoodsType name="Балинез" type_name="Breed" />
+		<GoodsType name="Бенгальская" type_name="Breed" />
+		<GoodsType name="Британская" type_name="Breed" />
+		<GoodsType name="Бурманская" type_name="Breed" />
+		<GoodsType name="Девон-рекс" type_name="Breed" />
+		<GoodsType name="Донской сфинкс" type_name="Breed" />
+		<GoodsType name="Европейская" type_name="Breed" />
+		<GoodsType name="Канадский сфинкс" type_name="Breed" />
+		<GoodsType name="Корниш-рекс" type_name="Breed" />
+		<GoodsType name="Курильский бобтейл" type_name="Breed" />
+		<GoodsType name="Ла-перм лаперм" type_name="Breed" />
+		<GoodsType name="Манчкин" type_name="Breed" />
+		<GoodsType name="Мейн-кун" type_name="Breed" />
+		<GoodsType name="Меконгский бобтейл" type_name="Breed" />
+		<GoodsType name="Невская маскарадная" type_name="Breed" />
+		<GoodsType name="Норвежская лесная" type_name="Breed" />
+		<GoodsType name="Ориентальная" type_name="Breed" />
+		<GoodsType name="Оцикет" type_name="Breed" />
+		<GoodsType name="Персидская" type_name="Breed" />
+		<GoodsType name="Петерболд" type_name="Breed" />
+		<GoodsType name="Русская голубая" type_name="Breed" />
+		<GoodsType name="Селкирк-рекс" type_name="Breed" />
+		<GoodsType name="Сиамская" type_name="Breed" />
+		<GoodsType name="Сибирская" type_name="Breed" />
+		<GoodsType name="Сингапурская" type_name="Breed" />
+		<GoodsType name="Сомалийская" type_name="Breed" />
+		<GoodsType name="Тайская" type_name="Breed" />
+		<GoodsType name="Турецкая ангора" type_name="Breed" />
+		<GoodsType name="Уральский рекс" type_name="Breed" />
+		<GoodsType name="Шотландская" type_name="Breed" />
+		<GoodsType name="Экзотическая" type_name="Breed" />
+		<GoodsType name="Японский бобтейл" type_name="Breed" />
+		<GoodsType name="Другая" type_name="Breed" />
+	</Category>
+	<Category name="Птицы" avito_standart="zhivotnye">
+	</Category>
+	<Category name="Аквариум" avito_standart="zhivotnye">
+	</Category>
+	<Category name="Другие животные" avito_standart="zhivotnye">
+		<GoodsType name="Амфибии" type_name="GoodsType" />
+		<GoodsType name="Грызуны" type_name="GoodsType" />
+		<GoodsType name="Кролики" type_name="GoodsType" />
+		<GoodsType name="Лошади" type_name="GoodsType" />
+		<GoodsType name="Рептилии" type_name="GoodsType" />
+		<GoodsType name="С/х животные" type_name="GoodsType" />
+		<GoodsType name="Хорьки" type_name="GoodsType" />
+		<GoodsType name="Другое" type_name="GoodsType" />
+	</Category>
+	<Category name="Товары для животных" avito_standart="zhivotnye">
+	</Category>
+	<Category name="Запчасти и аксессуары" avito_standart="zapchasti">
+		<GoodsType name="Запчасти" type_name="GoodsType">
+			<GoodsSubType name="Для автомобилей" type_name="GoodsSubType" />
+			<GoodsSubType name="Для мототехники" type_name="GoodsSubType" />
+			<GoodsSubType name="Для водного транспорта" type_name="GoodsSubType" />
+			<GoodsSubType name="Для грузовиков и спецтехники" type_name="GoodsSubType" />
+		</GoodsType>
+		<!--GoodsType
+		name="Шины, диски и колёса">
+			<GoodsSubType name="Колпаки" type_name="GoodsSubType" />
+			<GoodsSubType name="Колёса" type_name="GoodsSubType" />
+			<GoodsSubType name="Диски" type_name="GoodsSubType" />	
+			<GoodsSubType name="Мотошины" type_name="GoodsSubType" />
+			<GoodsSubType name="Легковые шины" type_name="GoodsSubType" />
+			<GoodsSubType name="Шины для грузовиков и спецтехники" type_name="GoodsSubType" />
+		</GoodsType-->
+		<GoodsType name="Аксессуары" type_name="GoodsType">
+			<GoodsSubType name="Для мото- и водного транспорта" type_name="GoodsSubType" />
+			<GoodsSubType name="Щётки стеклоочистителя" type_name="GoodsSubType" />
+			<GoodsSubType name="Для салона" type_name="GoodsSubType">
+				<AnotherType name="Коврики" type_name="AccessoryType" />
+				<AnotherType name="Чехлы и накидки" type_name="AccessoryType" />
+				<AnotherType name="Ключи и брелоки" type_name="AccessoryType" />
+				<AnotherType name="Шторки" type_name="AccessoryType" />
+				<AnotherType name="Сумки и органайзеры" type_name="AccessoryType" />
+				<AnotherType name="Оплётка на руль" type_name="AccessoryType" />
+				<AnotherType name="Подлокотники" type_name="AccessoryType" />
+				<AnotherType name="Держатели для телефона" type_name="AccessoryType" />
+				<AnotherType name="Ручки КПП" type_name="AccessoryType" />
+				<AnotherType name="Автохолодильники" type_name="AccessoryType" />
+				<AnotherType name="Другое" type_name="AccessoryType" />
+			</GoodsSubType>
+			<GoodsSubType name="Защита и декор" type_name="GoodsSubType">
+				<AnotherType name="Для фар, порогов и бамперов" type_name="AccessoryType" />
+				<AnotherType name="Наклейки, шильдики и значки" type_name="AccessoryType" />
+				<AnotherType name="Дефлекторы" type_name="AccessoryType" />
+				<AnotherType name="Для картера и КПП" type_name="AccessoryType" />
+				<AnotherType name="Брызговики и подкрылки" type_name="AccessoryType" />
+				<AnotherType name="Рамки номерного знака" type_name="AccessoryType" />
+				<AnotherType name="Силовые бамперы и пороги" type_name="AccessoryType" />
+				<AnotherType name="Утеплители" type_name="AccessoryType" />
+				<AnotherType name="Дополнительный свет" type_name="AccessoryType" />
+				<AnotherType name="Шноркели" type_name="AccessoryType" />
+			</GoodsSubType>
+			<GoodsSubType name="Набор автомобилиста" type_name="GoodsSubType" />
+			<GoodsSubType name="Для колёс" type_name="GoodsSubType" />
+			<GoodsSubType name="Отопительное оборудование" type_name="GoodsSubType" />
+			<GoodsSubType name="Уход" type_name="GoodsSubType" />
+		</GoodsType>
+		<GoodsType name="GPS-навигаторы" type_name="GoodsType" />
+		<GoodsType name="Аудио- и видеотехника" type_name="GoodsType" />
+		<GoodsType name="Багажники и фаркопы" type_name="GoodsType" />
+		<GoodsType name="Инструменты" type_name="GoodsType" />
+		<GoodsType name="Прицепы" type_name="GoodsType" />
+		<GoodsType name="Противоугонные устройства / Автосигнализации" type_name="GoodsType" />
+		<GoodsType name="Противоугонные устройства / Иммобилайзеры" type_name="GoodsType" />
+		<GoodsType name="Противоугонные устройства / Механические блокираторы" type_name="GoodsType" />
+		<GoodsType name="Противоугонные устройства / Спутниковые системы" type_name="GoodsType" />
+		<GoodsType name="Тюнинг" type_name="GoodsType" />
+		<GoodsType name="Экипировка" type_name="GoodsType" />
+		<GoodsType name="Масла и автохимия" type_name="GoodsType">
+			<GoodsSubType name="Моторные масла" type_name="GoodsSubType" />
+			<GoodsSubType name="Трансмиссионные масла" type_name="GoodsSubType" />
+			<GoodsSubType name="Охлаждающие жидкости" type_name="GoodsSubType" />
+			<GoodsSubType name="Тормозные жидкости" type_name="GoodsSubType" />
+			<GoodsSubType name="Гидравлические жидкости" type_name="GoodsSubType" />
+			<GoodsSubType name="Жидкости для омывателя стекла" type_name="GoodsSubType" />
+			<GoodsSubType name="Промывочные жидкости, присадки и смазки" type_name="GoodsSubType" />
+			<GoodsSubType name="Другие масла" type_name="GoodsSubType" />
+			<GoodsSubType name="Автокосметика и аксессуары" type_name="GoodsSubType" />
+			<GoodsSubType name="Топливо" type_name="GoodsSubType" />
+		</GoodsType>
+	</Category>
+	<Category name="Билеты и путешествия" avito_standart="hobby">
+		<GoodsType name="Карты, купоны" type_name="GoodsType" />
+		<GoodsType name="Концерты" type_name="GoodsType" />
+		<GoodsType name="Путешествия" type_name="GoodsType" />
+		<GoodsType name="Спорт" type_name="GoodsType" />
+		<GoodsType name="Театр, опера, балет" type_name="GoodsType" />
+		<GoodsType name="Цирк, кино" type_name="GoodsType" />
+		<GoodsType name="Шоу, мюзикл" type_name="GoodsType" />
+	</Category>
+	<Category name="Велосипеды" avito_standart="hobby">
+		<GoodsType name="Горные" type_name="VehicleType" />
+		<GoodsType name="Дорожные" type_name="VehicleType" />
+		<GoodsType name="BMX" type_name="VehicleType" />
+		<GoodsType name="Детские" type_name="VehicleType" />
+		<GoodsType name="Запчасти и аксессуары" type_name="VehicleType" />
+	</Category>
+	<Category name="Книги и журналы" avito_standart="hobby">
+		<GoodsType name="Журналы, газеты, брошюры" type_name="GoodsType" />
+		<GoodsType name="Книги" type_name="GoodsType" />
+		<GoodsType name="Учебная литература" type_name="GoodsType" />
+	</Category>
+	<Category name="Коллекционирование" avito_standart="hobby">
+		<GoodsType name="Банкноты" type_name="GoodsType" />
+		<GoodsType name="Билеты" type_name="GoodsType" />
+		<GoodsType name="Вещи знаменитостей, автографы" type_name="GoodsType" />
+		<GoodsType name="Военные вещи" type_name="GoodsType" />
+		<GoodsType name="Грампластинки" type_name="GoodsType" />
+		<GoodsType name="Документы" type_name="GoodsType" />
+		<GoodsType name="Жетоны, медали, значки" type_name="GoodsType" />
+		<GoodsType name="Игры" type_name="GoodsType" />
+		<GoodsType name="Календари" type_name="GoodsType" />
+		<GoodsType name="Картины" type_name="GoodsType" />
+		<GoodsType name="Киндер-сюрприз" type_name="GoodsType" />
+		<GoodsType name="Конверты и почтовые карточки" type_name="GoodsType" />
+		<GoodsType name="Макеты оружия" type_name="GoodsType" />
+		<GoodsType name="Марки" type_name="GoodsType" />
+		<GoodsType name="Модели" type_name="GoodsType" />
+		<GoodsType name="Монеты" type_name="GoodsType" />
+		<GoodsType name="Открытки" type_name="GoodsType" />
+		<GoodsType name="Пепельницы, зажигалки" type_name="GoodsType" />
+		<GoodsType name="Пластиковые карточки" type_name="GoodsType" />
+		<GoodsType name="Спортивные карточки" type_name="GoodsType" />
+		<GoodsType name="Фотографии, письма" type_name="GoodsType" />
+		<GoodsType name="Этикетки, бутылки, пробки" type_name="GoodsType" />
+		<GoodsType name="Другое" type_name="GoodsType" />
+	</Category>
+	<Category name="Музыкальные инструменты" avito_standart="hobby">
+		<GoodsType name="Аккордеоны, гармони, баяны" type_name="GoodsType" />
+		<GoodsType name="Гитары и другие струнные" type_name="GoodsType" />
+		<GoodsType name="Духовые" type_name="GoodsType" />
+		<GoodsType name="Пианино и другие клавишные" type_name="GoodsType" />
+		<GoodsType name="Скрипки и другие смычковые" type_name="GoodsType" />
+		<GoodsType name="Ударные" type_name="GoodsType" />
+		<GoodsType name="Для студии и концертов" type_name="GoodsType" />
+		<GoodsType name="Аксессуары" type_name="GoodsType" />
+	</Category>
+	<Category name="Охота и рыбалка" avito_standart="hobby">
+	</Category>
+	<Category name="Спорт и отдых" avito_standart="hobby">
+		<GoodsType name="Бильярд и боулинг" type_name="GoodsType" />
+		<GoodsType name="Дайвинг и водный спорт" type_name="GoodsType" />
+		<GoodsType name="Единоборства" type_name="GoodsType" />
+		<GoodsType name="Зимние виды спорта" type_name="GoodsType" />
+		<GoodsType name="Игры с мячом" type_name="GoodsType" />
+		<GoodsType name="Настольные игры" type_name="GoodsType" />
+		<GoodsType name="Пейнтбол и страйкбол" type_name="GoodsType" />
+		<GoodsType name="Ролики и скейтбординг" type_name="GoodsType" />
+		<GoodsType name="Теннис, бадминтон, пинг-понг" type_name="GoodsType" />
+		<GoodsType name="Туризм" type_name="GoodsType" />
+		<GoodsType name="Фитнес и тренажёры" type_name="GoodsType" />
+		<GoodsType name="Спортивное питание" type_name="GoodsType" />
+		<GoodsType name="Другое" type_name="GoodsType" />
+	</Category>
+</Categories>

@@ -1,0 +1,43 @@
+<?php defined( 'ABSPATH' ) || exit;
+/**
+ * Traits Model for simple products
+ *
+ * @package                 XML for Avito
+ * @subpackage              
+ * @since                   0.1.0
+ * 
+ * @version                 2.0.5 (07-08-2023)
+ * @author                  Maxim Glazunov
+ * @link                    https://icopydoc.ru/
+ * @see                     
+ *
+ * @depends                 classes:    Get_Paired_Tag
+ *                          traits:     
+ *                          methods:    get_feed_id
+ *                                      get_product
+ *                          functions:  common_option_get
+ *                          constants:  
+ */
+
+trait XFAVI_T_Simple_Get_Model {
+	public function get_model( $tag_name = 'Model', $result_xml = '' ) {
+		$product = $this->get_product();
+		$tag_value = '';
+
+		$model = xfavi_optionGET( 'xfavi_model', $this->get_feed_id(), 'set_arr' );
+		if ( empty( $model ) || $model === 'disabled' ) {
+		} else {
+			$model = (int) $model;
+			$tag_value = $product->get_attribute( wc_attribute_taxonomy_name_by_id( $model ) );
+		}
+
+		$tag_value = apply_filters( 'xfavi_f_simple_tag_value_model', $tag_value, [ 'product' => $product ], $this->get_feed_id() );
+		if ( ! empty( $tag_value ) ) {
+			$tag_name = apply_filters( 'xfavi_f_simple_tag_name_model', $tag_name, [ 'product' => $product ], $this->get_feed_id() );
+			$result_xml = new Get_Paired_Tag( $tag_name, $tag_value );
+		}
+
+		$result_xml = apply_filters( 'xfavi_f_simple_tag_model', $result_xml, [ 'product' => $product ], $this->get_feed_id() );
+		return $result_xml;
+	}
+}
